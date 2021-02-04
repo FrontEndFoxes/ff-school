@@ -11,6 +11,22 @@
           <span class="pt-5 pl-3">Front-End Foxes School</span>
         </a>
       </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto p-4 lg:p-0 z-20"
+        id="nav-content"
+      >
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="hover:bg-gray-700">
+            <a
+              active-class="bg-blue-800"
+              class="uppercase inline-block p-5 text-white no-underline"
+              href="https://us7.list-manage.com/contact-form?u=bb4724549551e6cf7bb5e3165&form_id=b15c2877e7d0009daf90e6911111e5b4
+"
+              >Sponsor Inquiry</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -34,7 +50,9 @@
               class="btn w-full lg:w-6/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
               href="http://eepurl.com/gdH21v"
-              ><div class="uppercase text-center text-lg">Keep me in the loop!</div></a
+              ><div class="uppercase text-center text-lg">
+                Keep me in the loop!
+              </div></a
             >
           </div>
         </div>
