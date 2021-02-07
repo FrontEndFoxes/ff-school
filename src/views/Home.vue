@@ -1,35 +1,4 @@
 <template>
-  <nav id="header" class="nav fixed w-full z-30 top-0 text-white">
-    <div class="w-full mx-auto flex flex-wrap items-center justify-between">
-      <!-- App bar -->
-      <div class="flex items-center pl-4">
-        <a
-          class="p-2 text-white no-underline hover:no-underline text-2xl lg:text-2xl"
-          href="/"
-        >
-          <img class="pull-left pt-1" src="../assets/logo-sm.png" alt="" />
-          <span class="pt-5 pl-3">Front-End Foxes School</span>
-        </a>
-      </div>
-      <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto p-4 lg:p-0 z-20"
-        id="nav-content"
-      >
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="hover:bg-gray-700">
-            <a
-              active-class="bg-blue-800"
-              class="uppercase inline-block p-5 text-white no-underline"
-              href="https://us7.list-manage.com/contact-form?u=bb4724549551e6cf7bb5e3165&form_id=b15c2877e7d0009daf90e6911111e5b4
-"
-              >Sponsor Inquiry</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <main class="relative flex-grow">
     <div class="pt-24">
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
@@ -148,99 +117,9 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer">
-    <div class="mx-auto flex items-center">
-      <div class="w-full mx-auto flex flex-wrap items-center">
-        <div
-          class="hidden md:flex w-full md:w-1/2 justify-center md:justify-start text-white"
-        >
-          <ul
-            class="list-reset w-1/2 lg:flex justify-start flex-1 items-center"
-          >
-            <li class="mr-3"></li>
-            <li class="mr-3">
-              <a
-                href="mailto:info@frontendfoxes.org"
-                class="hover:text-orange-600 uppercase inline-block py-2 px-4 text-white no-underline"
-              >
-                Contact Us
-              </a>
-            </li>
-
-            <li class="mr-3">
-              <span class="hover:text-orange-600">
-                A 501(c)(3) Public Charity
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="flex w-full pt-2 content-center justify-end md:w-1/2 md:justify-end"
-        >
-          <ul class="list-reset flex">
-            <li class="mr-3">
-              <a
-                class="uppercase inline-block py-2 px-4 text-white no-underline"
-                href="https://twitter.com/frontendfoxes"
-                aria-label="Twitter"
-                target="_blank"
-                rel="noopener"
-              >
-                <i
-                  class="text-white fa fa-twitter fa-2x"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </li>
-            <!--<li class="mr-3">
-              <a
-                class="uppercase inline-block py-2 px-4 text-white no-underline"
-                href="https://communityinviter.com/apps/vuevixens/front-end-foxes"
-                aria-label="Slack"
-                target="_blank"
-                rel="noopener"
-              >
-                <i class="text-white fa fa-slack fa-2x" aria-hidden="true"></i>
-              </a>
-            </li>-->
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      isOpen: false,
-    };
-  },
-  methods: {
-    drawer() {
-      this.isOpen = !this.isOpen;
-    },
-  },
-  watch: {
-    isOpen: {
-      immediate: true,
-      handler(isOpen) {
-        if (process.client) {
-          if (isOpen) document.body.style.setProperty("overflow", "hidden");
-          else document.body.style.removeProperty("overflow");
-        }
-      },
-    },
-  },
-  mounted() {
-    document.addEventListener("keydown", (e) => {
-      if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
-    });
-  },
-};
-</script>
+
 <style>
 .gradient {
   background: linear-gradient(
@@ -251,7 +130,8 @@ export default {
 }
 
 .nav,
-.footer {
+.footer,
+#drawer {
   background-color: theme("colors.primary.700");
 }
 
