@@ -18,9 +18,7 @@
               <p class="leading-relaxed text-xl text-primary-700">
                 Your sponsorship will make a difference! Sponsor a cohort or our
                 entire organization. Please reach out to us directly or email
-                <a class="underline" href="`mailto:jen@frontendfoxes.org`"
-                  >Jen</a
-                >
+                <a class="underline" href="mailto:jen@frontendfoxes.org">Jen</a>
                 to receive a prospectus and to become a sponsor.
               </p>
               <div>
@@ -54,7 +52,7 @@
                 👩‍🏫 Teach! We are currently looking for instructors eager to
                 teach! This is a paid position and we want to hear from you!
                 Please contact
-                <a class="underline" href="`mailto:diana@frontendfoxes.org`"
+                <a class="underline" href="mailto:diana@frontendfoxes.org"
                   >Diana</a
                 >
                 for more information.
@@ -65,14 +63,14 @@
                 students. Come bring your skills as a developer and help the
                 next generation of women developers enter the work force. If you
                 want to coach, please reach out to
-                <a class="underline" href="`mailto:diana@frontendfoxes.org`"
+                <a class="underline" href="mailto:diana@frontendfoxes.org"
                   >Diana</a
                 >.
               </p>
               <p>
                 🏆 Learn! If you are interested in learning more about helping
                 with the cohorts, reach out to
-                <a class="underline" href="`mailto:jaeriah@frontendfoxes.org`"
+                <a class="underline" href="mailto:jaeriah@frontendfoxes.org"
                   >Jaeriah</a
                 >
                 for more information.
