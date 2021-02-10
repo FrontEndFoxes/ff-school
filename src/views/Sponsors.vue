@@ -51,29 +51,27 @@
               <p>
                 👩‍🏫 Teach! We are currently looking for instructors eager to
                 teach! This is a paid position and we want to hear from you!
-                Please contact
-                <a class="underline" href="mailto:diana@frontendfoxes.org"
-                  >Diana</a
-                >
-                for more information.
+                Please apply as an instructor
+                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                  >using this form</a
+                >.
               </p>
 
               <p>
                 💪 Coach! We are looking for volunteer mentors to help coach
                 students. Come bring your skills as a developer and help the
                 next generation of women developers enter the work force. If you
-                want to coach, please reach out to
-                <a class="underline" href="mailto:diana@frontendfoxes.org"
-                  >Diana</a
+                want to coach, please apply as a mentor
+                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                  >using this form</a
                 >.
               </p>
               <p>
-                🏆 Learn! If you are interested in learning more about helping
-                with the cohorts, reach out to
-                <a class="underline" href="mailto:jaeriah@frontendfoxes.org"
-                  >Jaeriah</a
-                >
-                for more information.
+                🏆 Learn! If you are interested in joining a cohort as a
+                student, please apply
+                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                  >using this form</a
+                >.
               </p>
             </div>
           </div>

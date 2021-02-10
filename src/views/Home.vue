@@ -9,19 +9,17 @@
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Grow your front-end development skills with us!
-            Stay informed as we open our first cohort in the Spring of 2021.
+            We will open our first cohort in the Spring of 2021.
           </p>
 
           <div
             class="mb-5 flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap w-full justify-center md:justify-start z-10"
           >
             <a
-              class="btn w-full lg:w-6/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+              class="btn w-full lg:w-4/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
-              href="http://eepurl.com/gdH21v"
-              ><div class="uppercase text-center text-lg">
-                Keep me in the loop!
-              </div></a
+              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              ><div class="uppercase text-center text-lg">Apply</div></a
             >
           </div>
         </div>

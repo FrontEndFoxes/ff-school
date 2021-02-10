@@ -48,15 +48,16 @@
           </div>
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              Like to know when the next cohort opens?
+              We are now accepting application for the Spring 2021 cohort
+              (Instructors, Mentors, and Students)
             </h3>
             <div class="text-center">
               <a
                 class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
                 target="_blank"
-                href="http://eepurl.com/gdH21v"
+                href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
                 ><span class="p-5 uppercase text-center text-lg">
-                  Keep me in the loop!
+                  Apply
                 </span></a
               >
             </div>

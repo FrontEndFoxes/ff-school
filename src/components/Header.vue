@@ -60,6 +60,14 @@
               >
             </li>
             <li @click="isOpen = false">
+              <a
+                target="_blank"
+                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                >Apply</a
+              >
+            </li>
+            <li @click="isOpen = false">
               <router-link
                 class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
                 to="/sponsors"
@@ -106,6 +114,15 @@
               class="uppercase inline-block p-5 text-white no-underline"
               to="/ourschool"
               >Our School</router-link
+            >
+          </li>
+          <li class="hover:bg-blue-900">
+            <a
+              active-class="bg-blue-800"
+              target="_blank"
+              class="uppercase inline-block p-5 text-white no-underline"
+              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              >Apply</a
             >
           </li>
           <li class="hover:bg-blue-900">
