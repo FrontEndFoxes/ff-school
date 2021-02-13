@@ -137,20 +137,8 @@
   filter: grayscale(100%);
 }
 
-.button {
-  background: theme("colors.secondary.500");
-  color: theme("colors.white");
-}
-.button:hover {
-  background: theme("colors.secondary.400");
-}
-
 .logo {
   max-width: 500px;
 }
 
-#mc-embedded-subscribe {
-  margin: 0;
-  border: 0px;
-}
 </style>

@@ -16,16 +16,24 @@
               <h2 class="mb-4 text-3xl font-semibold">What to Expect</h2>
               <p class="leading-relaxed text-xl text-primary-700">
                 We propose to host, throughout the year, four cohorts of 11
-                weeks each. Each cohort will be designed for 60 students, with
-                one paid, trained instructor per region teaching via our online
-                platform twice a week, aided by volunteer mentor coaches.
+                weeks each using our online platform. Each cohort will be designed for 60 students, 20 per
+                region, with one paid, trained instructor per region teaching
+                via our online platform twice a week, aided by volunteer mentor
+                coaches. Depending on staffing, we will open a LATAM cohort
+                taught in Spanish. We also expect to host a North American
+                cohort, a European cohort, and an African cohort, with India and
+                Asian groups TBD. We hope to teach cohorts of 60 students total
+                four times a year: 
+                <ul class="pt-5 leading-relaxed text-xl text-primary-700">
+                  <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
+                  <li>👩‍🎓 Summer cohort​: July 5 - September 17 2021</li>
+                  <li>👩‍🎓 Autumn cohort​:
+                October 4 -December 17 2021</li>
+                  <li>👩‍🎓 Winter cohort​: January 10 - March
+                25 2022</li>
+                </ul>
               </p>
-              <p class="font-bold leading-relaxed text-xl text-primary-700">
-                Front-End Foxes School is a part-time program, taught twice a
-                week in the evenings - perfect for working women, students and
-                moms. We will ALWAYS be free of charge for students with no
-                strings attached.
-              </p>
+              
             </div>
             <div class="lg:w-1/3">
               <img
@@ -35,19 +43,41 @@
               />
             </div>
           </div>
-          <div class="w-full leading-relaxed text-xl text-primary-700">
-            We will teach the basics of web development starting with
-            JavaScript, HTML and CSS and finally teaching React.js as a
-            framework of choice. Our project-based curriculum allows new
-            developers to create and maintain a web portfolio site and a GitHub
-            presence for professional use. Paid instructors will be responsible
-            for teaching the curriculum while volunteers will be sourced from
-            our community of experienced developers. Each cohort of 60 will be
-            comprised of three regional groups of 20. Due to time zone
-            constraints, we propose that each seasonal cohort include a group
-            from Asia, one from Europe/Africa, and one from the Americas. Thus,
-            over a year, we propose to teach 12 groups for a total of 240
-            students trained per year.
+          <p
+                class="rounded-lg bg-gray-300 m-5 p-5 font-bold leading-relaxed text-xl text-primary-700"
+              >
+                Front-End Foxes School is a part-time program, taught twice a
+                week in the evenings for 11 weeks per cohort - perfect for working women, students and
+                moms. We will ALWAYS be free of charge for students with no
+                strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML and will have built four projects plus a portfolio web site built in React.js to showcase your skills.
+              </p>
+                      <h2 class="mb-4 text-3xl font-semibold mt-5">Participating</h2>
+
+          
+          <div class="pt-6 w-full leading-relaxed text-xl text-primary-700">
+            <span class="font-bold">Students</span> will learn the basics of web
+            development starting with JavaScript, HTML and CSS and four lessons
+            on React.js as a framework of choice. Our project-based curriculum
+            allows new developers to create and maintain a web portfolio site
+            and a GitHub presence for professional use. Our Curriculum is partly
+            based on Microsoft's
+            <a
+              class="underline"
+              href="https://aka.ms/webdev-beginners"
+              target="_blank"
+              >"Web Dev for Beginners"</a
+            >
+            curriculum, developed by a team led by Jen.
+            <a class="underline" href="/curriculum">Learn more on this page</a>
+            <hr class="pt-5 mt-5" />
+            <p><span class="font-bold">Paid Instructors</span> will be responsible
+            for teaching our curriculum and giving feedback on student
+            assignments and the final portfolio project. You will offer drop-in office hours once a week and complete feedback for each of your 20 students at the end of a cohort.</p>
+          <hr class="pt-5 mt-5" />
+          
+          <p><span class="font-bold">Volunteer Mentors</span> will attend classes and be prepared to answer questions during class while the instructor teaches. You will offer drop-in office hours once a week to support student progress. You will help students complete their final project by coaching them and giving them feedback.
+  </p>
+          
           </div>
           <div>
             <h2 class="mb-4 text-3xl font-semibold mt-5">Our Goals</h2>
@@ -78,19 +108,20 @@
           </div>
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting application for the Spring 2021 cohort
+              We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
             </h3>
-            <div class="text-center">
-              <a
-                class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
-                target="_blank"
-                href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
-                ><span class="p-5 uppercase text-center text-lg">
-                  Apply
-                </span></a
+            <a
+              class="text-white"
+              target="_blank"
+              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+            >
+              <div
+                class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
               >
-            </div>
+                Apply
+              </div>
+            </a>
           </div>
         </div>
       </div>

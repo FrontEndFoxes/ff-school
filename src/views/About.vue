@@ -27,7 +27,21 @@
                 front-end technologies in a supportive and inclusive
                 environment.
               </p>
+
+              <p
+                class="pt-5 leading-relaxed text-2xl font-bold text-primary-700"
+              >
+                Visit our
+                <a
+                  class="underline"
+                  href="https://frontendfoxes.org/gallery"
+                  target="_blank"
+                  >Gallery</a
+                >
+                to see some of our events, which we call 'skulks' (like foxes!)
+              </p>
             </div>
+
             <div class="lg:w-1/3">
               <img
                 class="lg:float-right mx-auto my-4 hidden lg:flex"
@@ -48,19 +62,20 @@
           </div>
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting application for the Spring 2021 cohort
+              We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
             </h3>
-            <div class="text-center">
-              <a
-                class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
-                target="_blank"
-                href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
-                ><span class="p-5 uppercase text-center text-lg">
-                  Apply
-                </span></a
+            <a
+              class="text-white"
+              target="_blank"
+              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+            >
+              <div
+                class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
               >
-            </div>
+                Apply
+              </div>
+            </a>
           </div>
         </div>
       </div>

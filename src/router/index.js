@@ -4,6 +4,7 @@ import About from '../views/About.vue';
 import OurSchool from '../views/OurSchool.vue';
 import Sponsors from '../views/Sponsors.vue';
 import Team from '../views/Team.vue';
+import Curriculum from '../views/Curriculum.vue';
 
 const history = createWebHistory();
 const routes = [
@@ -12,6 +13,7 @@ const routes = [
 	{ path: '/ourschool', component: OurSchool },
 	{ path: '/sponsors', component: Sponsors },
 	{ path: '/team', component: Team },
+	{ path: '/curriculum', component: Curriculum },
 ];
 const router = createRouter({ history, routes });
 export default router;
