@@ -11,6 +11,45 @@
         class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"
       ></div>
       <div class="max-w-6xl mx-auto">
+        <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Community Sponsors
+        </h2>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/pachi-logo.png"
+                alt="Pachi Codes"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold">Pachi Codes</span>
+                    Pachi is a self-directed learner. Very active online, Pachi
+                    fell in love with the community and began teaching what she
+                    knew and sharing her learning, writing and live coding. She
+                    is a Developer Relations Engineer at New Relic. Visit her
+                    site at
+                    <a
+                      class="underline"
+                      href="https://pachicodes.com"
+                      target="_blank"
+                      >PachiCodes.com</a
+                    >.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <hr class="p-10 m-10" />
+      <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
           <div class="lg:flex mb-4">
             <div class="lg:w-2/3 lg:pr-20">
