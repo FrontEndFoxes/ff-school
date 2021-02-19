@@ -19,10 +19,7 @@
                 weeks each using our online platform. Each cohort will be designed for 60 students, 20 per
                 region, with one paid, trained instructor per region teaching
                 via our online platform twice a week, aided by volunteer mentor
-                coaches. Depending on staffing, we will open a LATAM cohort
-                taught in Spanish. We also expect to host a North American
-                cohort, a European cohort, and an African cohort, with India and
-                Asian groups TBD. We hope to teach cohorts of 60 students total
+                coaches. For our Spring session we will host a North American cohort, a European cohort, an African cohort, and a LATAM cohort. We hope to teach cohorts of 60 students total
                 four times a year: 
                 <ul class="pt-5 leading-relaxed text-xl text-primary-700">
                   <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
@@ -33,6 +30,7 @@
                 25 2022</li>
                 </ul>
               </p>
+              
               
             </div>
             <div class="lg:w-1/3">
@@ -51,10 +49,15 @@
                 moms. We will ALWAYS be free of charge for students with no
                 strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML and will have built four projects plus a portfolio web site built in React.js to showcase your skills.
               </p>
-                      <h2 class="mb-4 text-3xl font-semibold mt-5">Participating</h2>
+
+              <h2 class="mb-4 text-3xl font-semibold">Eligibility</h2>
+              <p class="leading-relaxed text-xl text-primary-700">
+                Our programs are designed for women students. While we teach remote cohorts, it is still important to ensure that our student groups are women only. To this effect, we ask that students, when applying, self-certify as women. Membership in a cohort can be revoked if self-identification is found to be false.</p>
+
+                      <h2 class="mb-4 text-3xl font-semibold mt-4">Participating</h2>
 
           
-          <div class="pt-6 w-full leading-relaxed text-xl text-primary-700">
+          <div class="pt-2 w-full leading-relaxed text-xl text-primary-700">
             <span class="font-bold">Students</span> will learn the basics of web
             development starting with JavaScript, HTML and CSS and four lessons
             on React.js as a framework of choice. Our project-based curriculum
