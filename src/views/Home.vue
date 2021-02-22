@@ -1,5 +1,5 @@
 <template>
-  <main class="relative flex-grow">
+  <main class="relative">
     <div class="pt-24">
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
@@ -71,7 +71,7 @@
     </div>
   </main>
 
-  <section class="bg-gray-100 py-8">
+  <section class=" py-8" style="background-color: #f7fafc">
     <div class="container mx-auto flex flex-wrap pt-4">
       <h2
         class="w-full text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
@@ -119,6 +119,8 @@
 
 
 <style>
+.nav,
+.footer,
 .gradient {
   background: linear-gradient(
     90deg,
@@ -126,9 +128,6 @@
     theme("colors.primary.500") 100%
   );
 }
-
-.nav,
-.footer,
 #drawer {
   background-color: theme("colors.primary.700");
 }
@@ -140,5 +139,4 @@
 .logo {
   max-width: 500px;
 }
-
 </style>
