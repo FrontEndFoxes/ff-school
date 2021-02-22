@@ -12,7 +12,7 @@
             We will open our first cohort in the Spring of 2021.
           </p>
 
-          <div
+          <!--<div
             class="mb-5 flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap w-full justify-center md:justify-start z-10"
           >
             <a
@@ -21,7 +21,7 @@
               href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
               ><div class="uppercase text-center text-lg">Apply</div></a
             >
-          </div>
+          </div>-->
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">

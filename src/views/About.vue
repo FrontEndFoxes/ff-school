@@ -60,7 +60,28 @@
             the very few non-corporate, free-of-charge community-generated boot
             camps for women in the world.
           </div>
-          <div class="mb-5">
+          <div class="lg:w-full mt-5 lg:pr-20">
+              <h2 class="mb-4 text-3xl font-semibold">Sponsor a Cohort</h2>
+              <p class="leading-relaxed text-xl text-primary-700">
+                Your sponsorship will make a difference! Sponsor a cohort or our
+                entire organization. Please reach out to us directly or email
+                <a class="underline" href="mailto:jen@frontendfoxes.org">Jen</a>
+                to receive a prospectus and to become a sponsor.
+              </p>
+              <div>
+                <div class="text-center mt-6">
+                  <a
+                    class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
+                    target="_blank"
+                    href="https://us7.list-manage.com/contact-form?u=bb4724549551e6cf7bb5e3165&form_id=b15c2877e7d0009daf90e6911111e5b4"
+                    ><span class="p-5 uppercase text-center text-lg">
+                      Contact us for a Prospectus
+                    </span></a
+                  >
+                </div>
+              </div>
+            </div>
+          <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
@@ -76,7 +97,7 @@
                 Apply
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>

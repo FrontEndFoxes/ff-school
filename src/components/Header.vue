@@ -66,14 +66,14 @@
                 >Curriculum</router-link
               >
             </li>
-            <li @click="isOpen = false">
+            <!--<li @click="isOpen = false">
               <a
                 target="_blank"
                 class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
                 href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
                 >Apply</a
               >
-            </li>
+            </li>-->
             <li @click="isOpen = false">
               <router-link
                 class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
@@ -131,7 +131,7 @@
               >Curriculum</router-link
             >
           </li>
-          <li class="hover:bg-blue-900">
+          <!--<li class="hover:bg-blue-900">
             <a
               active-class="bg-blue-800"
               target="_blank"
@@ -139,7 +139,7 @@
               href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
               >Apply</a
             >
-          </li>
+          </li>-->
           <li class="hover:bg-blue-900">
             <router-link
               active-class="bg-blue-800"

@@ -164,13 +164,19 @@
 
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">10</td>
+                <td class="p-5">A taste of Vue.js</td>
+                <td class="p-5">Build a pet adoption app with Vue</td>
+              </tr>
+
+              <tr class="border-solid border border-gray-800">
+                <td class="p-5">10</td>
                 <td class="p-5">Build your Portfolio with React</td>
                 <td class="p-5">
                   Introduction to React.js; JSX, Scaffold your site
                 </td>
               </tr>
               <tr class="border-solid border border-gray-800">
-                <td class="p-5">10</td>
+                <td class="p-5">11</td>
                 <td class="p-5">Build your Portfolio with React</td>
                 <td class="p-5">Components, Props, Methods</td>
               </tr>
@@ -179,15 +185,10 @@
                 <td class="p-5">Build your Portfolio with React</td>
                 <td class="p-5">State Management in React, Routing</td>
               </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">11</td>
-                <td class="p-5">Build your Portfolio with React</td>
-                <td class="p-5">Testing</td>
-              </tr>
             </tbody>
           </table>
 
-          <div class="mb-5">
+          <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
@@ -203,7 +204,7 @@
                 Apply
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>

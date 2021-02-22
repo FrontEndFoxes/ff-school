@@ -109,7 +109,7 @@
               </p>
             </div>
           </div>
-          <div class="mb-5">
+          <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
@@ -125,7 +125,7 @@
                 Apply
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
