@@ -9,7 +9,7 @@
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Grow your front-end development skills with us!
-            We will open our first cohort in the Spring of 2021.
+            Our first 11-week cohort begins April 5th. 
           </p>
 
           <!--<div
