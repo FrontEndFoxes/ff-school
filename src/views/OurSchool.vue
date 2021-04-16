@@ -16,18 +16,16 @@
               <h2 class="mb-4 text-3xl font-semibold">What to Expect</h2>
               <p class="leading-relaxed text-xl text-primary-700">
                 We propose to host, throughout the year, four cohorts of 11
-                weeks each using our online platform. Each cohort will be designed for 60 students, 20 per
+                weeks each using our online platform. Each cohort will be designed for 80 students, 20 per
                 region, with one paid, trained instructor per region teaching
                 via our online platform twice a week, aided by volunteer mentor
-                coaches. For our Spring session we will host a North American cohort, a European cohort, an African cohort, and a LATAM cohort. We hope to teach cohorts of 60 students total
-                four times a year: 
+                coaches. For our Spring session we will host a North American cohort, a European cohort, an African cohort, and a LATAM cohort. 
+                Our current schedule is:
                 <ul class="pt-5 leading-relaxed text-xl text-primary-700">
                   <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
                   <li>👩‍🎓 Summer cohort​: July 5 - September 17 2021</li>
-                  <li>👩‍🎓 Autumn cohort​:
-                October 4 -December 17 2021</li>
-                  <li>👩‍🎓 Winter cohort​: January 10 - March
-                25 2022</li>
+                  <li>👩‍🎓 Autumn cohort​: October 4 - December 17 2021</li>
+                  <li>👩‍🎓 Winter cohort​: January 10 - March 25 2022</li>
                 </ul>
               </p>
               

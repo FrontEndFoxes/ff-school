@@ -12,6 +12,44 @@
       ></div>
       <div class="max-w-6xl mx-auto">
         <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Silver Sponsors
+        </h2>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/kendo-logo.png"
+                alt="Kendo UI"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <p class="font-bold text-xl pb-5">Progress Kendo UI</p>
+                    Build Better JavaScript Apps Faster! The ultimate collection
+                    of JavaScript UI components with libraries for jQuery,
+                    Angular, React, and Vue. Quickly build eye-catching,
+                    high-performance, responsive web applications regardless of
+                    your JavaScript framework choice. For more information visit:
+                    <a
+                      class="underline"
+                      href="https://www.telerik.com/kendo-ui"
+                      target="_blank"
+                      >https://www.telerik.com/kendo-ui</a
+                    >.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-center mb-4 text-3xl font-semibold text-black">
           Community Sponsors
         </h2>
 
@@ -28,7 +66,7 @@
               <div class="pt-6 md:p-8 text-center space-y-4">
                 <blockquote>
                   <p class="text-lg">
-                    <span class="font-bold">Pachi Codes</span>
+                    <p class="font-bold text-xl pb-5">Pachi Codes</p>
                     Pachi is a self-directed learner. Very active online, Pachi
                     fell in love with the community and began teaching what she
                     knew and sharing her learning, writing and live coding. She
