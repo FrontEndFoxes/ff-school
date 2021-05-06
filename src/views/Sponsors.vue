@@ -10,6 +10,41 @@
       <div
         class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"
       ></div>
+
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Gold Sponsors
+        </h2>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/passionate-people-logo.png"
+                alt="Passionate People"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <p class="font-bold text-xl pb-5">Passionate People</p>
+                    We provide you with additional technical capacity to power-up your digital transformation journeys with our teams of first-class engineers and consultants.
+                    Full stack JavaScript Cloud Engineers ready to work with you and your teams. Learn more about Passionate People at <a
+                      class="underline"
+                      href="https://passionatepeople.io"
+                      target="_blank"
+                      >https://www.passionatepeople.io</a
+                    >.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+
       <div class="max-w-6xl mx-auto">
         <h2 class="text-center mb-4 text-3xl font-semibold text-black">
           Silver Sponsors
