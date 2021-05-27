@@ -9,7 +9,8 @@
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Grow your front-end development skills with us!
-            Our first 11-week cohort begins April 5th. 
+            Our summer cohort will open on July 5th. Registration will open on
+            June 7th. Come back soon to register!
           </p>
 
           <!--<div
@@ -71,7 +72,7 @@
     </div>
   </main>
 
-  <section class=" py-8" style="background-color: #f7fafc">
+  <section class="py-8" style="background-color: #f7fafc">
     <div class="container mx-auto flex flex-wrap pt-4">
       <h2
         class="w-full text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"

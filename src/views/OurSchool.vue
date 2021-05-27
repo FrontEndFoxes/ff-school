@@ -97,13 +97,10 @@
                 ecosystem.
               </p>
               <p>
-                🦊 Use a state-of-the-art learning platform to provide an
-                excellent learning experience
+                🦊 Some of the best teachers in the industry are on our staff!
               </p>
               <p>
-                🦊 Make online learning accessible to remote corners of the
-                world through a performant and lean experience for all users via
-                our whitelabeled platform and worldwide mentoring team
+                🦊 Learn at your own pace with asyncronous learning opportunities, or join an in-person cohort. The choice is yours!
               </p>
             </div>
           </div>
