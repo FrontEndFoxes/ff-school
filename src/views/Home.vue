@@ -8,8 +8,8 @@
             A New Kind of Bootcamp
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
-            For women, by women. Always free of charge! Grow your front-end
-            development skills with us! Our summer cohort will begin on July
+            For women, by women. Always free of charge. Grow your front-end
+            development skills with us. Our summer cohort will begin on July
             5th. Apply now!
           </p>
 
