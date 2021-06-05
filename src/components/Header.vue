@@ -41,49 +41,103 @@
         </transition>
         <aside
           id="drawer"
-          class="transform top-0 left-0 w-64 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+          class="
+            transform
+            top-0
+            left-0
+            w-64
+            fixed
+            h-full
+            overflow-auto
+            ease-in-out
+            transition-all
+            duration-300
+            z-30
+          "
           :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
         >
           <ul>
             <li @click="isOpen = false">
               <router-link
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
                 to="/about"
                 >About Us</router-link
               >
             </li>
             <li @click="isOpen = false">
               <router-link
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
                 to="/ourschool"
                 >Our School</router-link
               >
             </li>
             <li @click="isOpen = false">
               <router-link
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
                 to="/curriculum"
                 >Curriculum</router-link
               >
             </li>
-            <!--<li @click="isOpen = false">
+            <li @click="isOpen = false">
               <a
                 target="_blank"
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
-                href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
+                href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
                 >Apply</a
               >
-            </li>-->
+            </li>
             <li @click="isOpen = false">
               <router-link
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
                 to="/sponsors"
                 >Sponsors</router-link
               >
             </li>
             <li @click="isOpen = false">
               <router-link
-                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
                 to="/team"
                 >Team</router-link
               >
@@ -94,7 +148,14 @@
       <!-- App bar -->
       <div class="flex items-center pl-4">
         <a
-          class="p-2 text-white no-underline hover:no-underline text-2xl lg:text-2xl"
+          class="
+            p-2
+            text-white
+            no-underline
+            hover:no-underline
+            text-2xl
+            lg:text-2xl
+          "
           href="/"
         >
           <img class="pull-left pt-1" src="../assets/logo-sm.png" alt="" />
@@ -103,7 +164,17 @@
       </div>
 
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden p-4 lg:p-0 z-20"
+        class="
+          w-full
+          flex-grow
+          lg:flex
+          lg:items-center
+          lg:w-auto
+          hidden
+          p-4
+          lg:p-0
+          z-20
+        "
         id="nav-content"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
@@ -131,15 +202,15 @@
               >Curriculum</router-link
             >
           </li>
-          <!--<li class="hover:bg-blue-900">
+          <li class="hover:bg-blue-900">
             <a
               active-class="bg-blue-800"
               target="_blank"
               class="uppercase inline-block p-5 text-white no-underline"
-              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
               >Apply</a
             >
-          </li>-->
+          </li>
           <li class="hover:bg-blue-900">
             <router-link
               active-class="bg-blue-800"

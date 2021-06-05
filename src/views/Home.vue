@@ -8,21 +8,42 @@
             A New Kind of Bootcamp
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
-            For women, by women. Grow your front-end development skills with us!
-            Our summer cohort will open on July 5th. Registration will open on
-            June 7th. Come back soon to register!
+            For women, by women. Always free of charge! Grow your front-end
+            development skills with us! Our summer cohort will begin on July
+            5th. Apply now!
           </p>
 
-          <!--<div
-            class="mb-5 flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap w-full justify-center md:justify-start z-10"
+          <div
+            class="
+              mb-5
+              flex flex-wrap
+              lg:flex lg:flex-no-wrap
+              md:flex
+              lg:flex-no-wrap
+              w-full
+              justify-center
+              md:justify-start
+              z-10
+            "
           >
             <a
-              class="btn w-full lg:w-4/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+              class="
+                btn
+                w-full
+                lg:w-4/12
+                text-white
+                mt-6
+                rounded-lg
+                overflow-hidden
+                py-3
+                bg-secondary-500
+                hover:bg-secondary-400
+              "
               target="_blank"
-              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
               ><div class="uppercase text-center text-lg">Apply</div></a
             >
-          </div>-->
+          </div>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">
@@ -75,9 +96,16 @@
   <section class="py-8" style="background-color: #f7fafc">
     <div class="container mx-auto flex flex-wrap pt-4">
       <h2
-        class="w-full text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+        class="
+          w-full
+          text-3xl
+          md:text-5xl
+          font-bold
+          leading-tight
+          text-center text-gray-800
+        "
       >
-        Women Teaching Women
+        We Get Results
       </h2>
       <div class="w-full mb-4">
         <div
@@ -86,33 +114,25 @@
       </div>
 
       <div class="lg:flex">
-        <div class="lg:w-1/3 p-2">
+        <div class="lg:w-1/2 p-2">
           <div class="p-2">
             <img
               class="mentoring"
-              src="../assets/mentoring.jpg"
-              alt="mentoring"
+              src="../assets/karla.png"
+              alt="Karla's Testimonial"
             />
           </div>
         </div>
-        <div class="lg:w-1/3 p-2">
+        <div class="lg:w-1/2 p-2">
           <div class="p-2">
             <img
               class="mentoring"
-              src="../assets/mentoring2.jpg"
-              alt="mentoring"
+              src="../assets/daniela.png"
+              alt="Daniela's Testimonial"
             />
           </div>
         </div>
-        <div class="lg:w-1/3 p-2">
-          <div class="p-2">
-            <img
-              class="mentoring"
-              src="../assets/mentoring3.jpg"
-              alt="mentoring"
-            />
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -133,9 +153,9 @@
   background-color: theme("colors.primary.700");
 }
 
-.mentoring {
+/*.mentoring {
   filter: grayscale(100%);
-}
+}*/
 
 .logo {
   max-width: 500px;

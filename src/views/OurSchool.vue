@@ -104,7 +104,7 @@
               </p>
             </div>
           </div>
-          <!--<div class="mb-5">
+          <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
@@ -112,7 +112,7 @@
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
             >
               <div
                 class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
@@ -120,7 +120,7 @@
                 Apply
               </div>
             </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>

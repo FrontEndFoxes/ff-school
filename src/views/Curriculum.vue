@@ -2,12 +2,30 @@
   <div class="bg-white">
     <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+        class="
+          w-full
+          my-2
+          text-5xl
+          font-bold
+          leading-tight
+          text-center text-gray-800
+        "
       >
         Our Curriculum
       </h1>
       <div
-        class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"
+        class="
+          h-1
+          mx-auto
+          gradient
+          w-64
+          opacity-25
+          my-0
+          py-0
+          rounded-t
+          mb-8
+          lg:mb-16
+        "
       ></div>
       <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
@@ -188,7 +206,7 @@
             </tbody>
           </table>
 
-          <!--<div class="mb-5">
+          <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for the Spring 2021 cohort
               (Instructors, Mentors, and Students)
@@ -196,15 +214,25 @@
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
             >
               <div
-                class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
+                class="
+                  rounded-lg
+                  w-full
+                  md:w-1/2
+                  m-auto
+                  py-3
+                  uppercase
+                  text-center text-lg
+                  bg-secondary-500
+                  hover:bg-secondary-400
+                "
               >
                 Apply
               </div>
             </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>
