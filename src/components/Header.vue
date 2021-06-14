@@ -110,8 +110,8 @@
                   hover:bg-blue-800
                   hover:text-white
                 "
-                href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
-                >Apply</a
+                href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+                >Register</a
               >
             </li>
             <li @click="isOpen = false">
@@ -207,8 +207,8 @@
               active-class="bg-blue-800"
               target="_blank"
               class="uppercase inline-block p-5 text-white no-underline"
-              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
-              >Apply</a
+              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+              >Register</a
             >
           </li>
           <li class="hover:bg-blue-900">

@@ -15,17 +15,15 @@
             <div class="lg:w-2/3 lg:pr-20">
               <h2 class="mb-4 text-3xl font-semibold">What to Expect</h2>
               <p class="leading-relaxed text-xl text-primary-700">
-                We propose to host, throughout the year, four cohorts of 11
-                weeks each using our online platform. Each cohort will be designed for 80 students, 20 per
+                We propose to host, throughout the year, two cohorts of 11
+                weeks. We also offer asyncronous online learning. Each cohort will be designed for 80 students, 20 per
                 region, with one paid, trained instructor per region teaching
-                via our online platform twice a week, aided by volunteer mentor
-                coaches. For our Spring session we will host a North American cohort, a European cohort, an African cohort, and a LATAM cohort. 
-                Our current schedule is:
+                online twice a week, aided by volunteer mentor
+                coaches. Our current schedule is:
                 <ul class="pt-5 leading-relaxed text-xl text-primary-700">
                   <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
-                  <li>👩‍🎓 Summer cohort​: July 5 - September 17 2021</li>
-                  <li>👩‍🎓 Autumn cohort​: October 4 - December 17 2021</li>
-                  <li>👩‍🎓 Winter cohort​: January 10 - March 25 2022</li>
+                  <li>👩‍🎓 Summer cohort​: September 6 - Nov 19 2021</li>
+  
                 </ul>
               </p>
               
@@ -44,7 +42,7 @@
               >
                 Front-End Foxes School is a part-time program, taught twice a
                 week in the evenings for 11 weeks per cohort - perfect for working women, students and
-                moms. We will ALWAYS be free of charge for students with no
+                moms. We also offer ad hoc asyncronous classroom learning. We will ALWAYS be free of charge for students with no
                 strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML and will have built four projects plus a portfolio web site built in React.js to showcase your skills.
               </p>
 
@@ -106,18 +104,17 @@
           </div>
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications for the Spring 2021 cohort
-              (Instructors, Mentors, and Students)
+              We are now accepting registrations for asyncronous self-driven classes.
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
+              href="https://forms.gle/SRNfeJiYBC2qPoh46"
             >
               <div
                 class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
               >
-                Apply
+                Register
               </div>
             </a>
           </div>

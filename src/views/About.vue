@@ -89,12 +89,12 @@
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
+              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
             >
               <div
                 class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
               >
-                Apply
+                Register
               </div>
             </a>
           </div>

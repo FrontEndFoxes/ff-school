@@ -208,13 +208,12 @@
 
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications for the Spring 2021 cohort
-              (Instructors, Mentors, and Students)
+              We are now accepting applications for self-driven learning
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
+              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
             >
               <div
                 class="
@@ -229,7 +228,7 @@
                   hover:bg-secondary-400
                 "
               >
-                Apply
+                Register
               </div>
             </a>
           </div>

@@ -9,8 +9,10 @@
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Always free of charge. Grow your front-end
-            development skills with us. Our summer cohort will begin on July
-            5th. Apply now!
+            development skills with us either in person or by studying in our
+            self-driven classroom. Our live teacher-led cohort will begin on
+            September 6th. Registration for the live cohort will open in August.
+            Sign up for a self-study class any time!
           </p>
 
           <div
@@ -40,8 +42,8 @@
                 hover:bg-secondary-400
               "
               target="_blank"
-              href="https://forms.gle/Ra8uDx9XiwcbsXnMA"
-              ><div class="uppercase text-center text-lg">Apply</div></a
+              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+              ><div class="uppercase text-center text-lg">Register</div></a
             >
           </div>
         </div>
@@ -132,7 +134,6 @@
             />
           </div>
         </div>
-        
       </div>
     </div>
   </section>

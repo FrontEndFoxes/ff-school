@@ -160,7 +160,7 @@
             </h2>
 
             <div class="w-full leading-relaxed text-xl text-primary-700">
-              <p>
+              <!--<p>
                 👩‍🏫 Teach! We are currently looking for instructors eager to
                 teach! This is a paid position and we want to hear from you!
                 Please apply as an instructor
@@ -177,11 +177,11 @@
                 <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
                   >using this form</a
                 >.
-              </p>
+              </p>-->
               <p>
-                🏆 Learn! If you are interested in joining a cohort as a
-                student, please apply
-                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                🏆 Learn! If you are interested in joining us as a
+                self-learning student, please apply
+                <a class="underline" href="https://forms.gle/GA9pUe8AFkcJJQvSA"
                   >using this form</a
                 >.
               </p>
