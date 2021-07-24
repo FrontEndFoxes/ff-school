@@ -13,7 +13,6 @@ const routes = [
 	{ path: '/ourschool', component: OurSchool },
 	{ path: '/sponsors', component: Sponsors },
 	{ path: '/team', component: Team },
-	{ path: '/curriculum', component: Curriculum },
 ];
 const router = createRouter({ history, routes });
 export default router;
