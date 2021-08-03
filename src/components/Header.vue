@@ -85,7 +85,7 @@
                 >Our School</router-link
               >
             </li>
-            
+
             <li @click="isOpen = false">
               <a
                 target="_blank"
@@ -97,7 +97,7 @@
                   hover:bg-blue-800
                   hover:text-white
                 "
-                href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+                href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
                 >Register</a
               >
             </li>
@@ -181,13 +181,13 @@
               >Our School</router-link
             >
           </li>
-          
+
           <li class="hover:bg-blue-900">
             <a
               active-class="bg-blue-800"
               target="_blank"
               class="uppercase inline-block p-5 text-white no-underline"
-              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
               >Register</a
             >
           </li>

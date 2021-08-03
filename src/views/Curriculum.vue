@@ -208,12 +208,12 @@
 
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications for self-driven learning
+              We are now accepting applications for our September cohort
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
+              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
             >
               <div
                 class="

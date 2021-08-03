@@ -103,12 +103,12 @@
           </div>
           <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting registrations for asyncronous self-driven classes.
+              We are now accepting registrations for our September cohort.
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/SRNfeJiYBC2qPoh46"
+              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
             >
               <div
                 class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
