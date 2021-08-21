@@ -11,8 +11,9 @@
             For women, by women. Always free of charge. Grow your front-end
             development skills with us either in person or by studying in our
             self-driven classroom. Our live teacher-led cohort will begin on
-            September 6th. Registration for the live cohort is now open. Sign up
-            for a
+            September 6th.
+            <!--Registration for the live cohort is now open.-->
+            Sign up for a
             <a
               class="cursor-pointer underline"
               href="https://forms.gle/GA9pUe8AFkcJJQvSA"
