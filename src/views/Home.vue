@@ -22,7 +22,7 @@
             any time!
           </p>
 
-          <div
+          <!--<div
             class="
               mb-5
               flex flex-wrap
@@ -52,7 +52,7 @@
               href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
               ><div class="uppercase text-center text-lg">Register</div></a
             >
-          </div>
+          </div>-->
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">

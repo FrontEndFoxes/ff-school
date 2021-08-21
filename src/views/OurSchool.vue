@@ -15,15 +15,15 @@
             <div class="lg:w-2/3 lg:pr-20">
               <h2 class="mb-4 text-3xl font-semibold">What to Expect</h2>
               <p class="leading-relaxed text-xl text-primary-700">
-                We propose to host, throughout the year, in cohorts of 5
+                We propose to host, throughout the year, free cohorts of 5
                 weeks each. We also offer asyncronous online learning. 
-                Each cohort will be designed for 80 students, 20 per
+                Each cohort will be designed for up to 80 students, 20 per
                 region, with one paid, trained instructor per region teaching
                 online twice a week, aided by volunteer mentor
                 coaches. Our current schedule is:
                 <ul class="pt-5 leading-relaxed text-xl text-primary-700">
                   <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
-                  <li>👩‍🎓 Summer cohort​: September 6 - October 8 2021</li>
+                  <li>👩‍🎓 Fall cohort​: September 6 - October 8 2021</li>
   
                 </ul>
               </p>
@@ -44,7 +44,7 @@
                 Front-End Foxes School is a part-time program, taught twice a
                 week in the evenings for 5 weeks per cohort - perfect for working women, students and
                 moms. We also offer ad hoc asyncronous classroom learning. We will ALWAYS be free of charge for students with no
-                strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML and will have built four projects plus a portfolio web site built in React.js to showcase your skills.
+                strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML.
               </p>
 
               <h2 class="mb-4 text-3xl font-semibold">Eligibility</h2>
@@ -101,7 +101,7 @@
               </p>
             </div>
           </div>
-          <div class="mb-5">
+          <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting registrations for our September cohort.
             </h3>
@@ -116,7 +116,7 @@
                 Register
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>

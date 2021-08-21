@@ -206,7 +206,7 @@
             </tbody>
           </table>
 
-          <div class="mb-5">
+          <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications for our September cohort
             </h3>
@@ -231,7 +231,7 @@
                 Register
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>

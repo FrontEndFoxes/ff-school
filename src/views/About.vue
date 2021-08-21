@@ -28,18 +28,7 @@
                 environment.
               </p>
 
-              <p
-                class="pt-5 leading-relaxed text-2xl font-bold text-primary-700"
-              >
-                Visit our
-                <a
-                  class="underline"
-                  href="https://frontendfoxes.org/gallery"
-                  target="_blank"
-                  >Gallery</a
-                >
-                to see some of our events, which we call 'skulks' (like foxes!)
-              </p>
+          
             </div>
 
             <div class="lg:w-1/3">
@@ -81,7 +70,7 @@
                 </div>
               </div>
             </div>
-         <div class="mb-5">
+         <!--<div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
               We are now accepting applications our September cohort
             </h3>
@@ -96,7 +85,7 @@
                 Register
               </div>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
