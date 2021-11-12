@@ -10,8 +10,8 @@
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Always free of charge. Grow your front-end
             development skills with us either in person or by studying in our
-            self-driven classroom. Our live teacher-led cohort will begin on
-            September 6th.
+            self-driven classroom. Our live teacher-led cohort will begin
+            again in early 2022.
             <!--Registration for the live cohort is now open.-->
             Sign up for a
             <a
