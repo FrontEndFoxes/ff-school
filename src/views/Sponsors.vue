@@ -21,6 +21,33 @@
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
               <img
                 class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/herodevs.png"
+                alt="Hero Devs"
+                width="414"
+                height="254"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <p class="font-bold text-xl pb-5">HeroDevs</p>
+                    Specializing in engineering, consulting and training, HeroDevs are experts at shipping software and helping your team do the same. Visit HeroDevs at <a
+                      class="underline"
+                      href="https://herodevs.com"
+                      target="_blank"
+                      >https://www.herodevs.com</a
+                    >.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
                 src="../assets/passionate-people-logo.png"
                 alt="Passionate People"
                 width="414"
@@ -43,6 +70,8 @@
             </figure>
           </div>
         </div>
+
+        
       </div>
 
       <div class="max-w-6xl mx-auto">

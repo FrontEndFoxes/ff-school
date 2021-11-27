@@ -86,6 +86,21 @@
               >
             </li>
 
+            <li @click="isOpen = false">
+              <router-link
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
+                to="/curriculum"
+                >Curriculum</router-link
+              >
+            </li>
+
             <!--<li @click="isOpen = false">
               <a
                 target="_blank"
@@ -179,6 +194,15 @@
               class="uppercase inline-block p-5 text-white no-underline"
               to="/ourschool"
               >Our School</router-link
+            >
+          </li>
+
+          <li class="hover:bg-blue-900">
+            <router-link
+              active-class="bg-blue-800"
+              class="uppercase inline-block p-5 text-white no-underline"
+              to="/curriculum"
+              >Curriculum</router-link
             >
           </li>
 

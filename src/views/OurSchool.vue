@@ -17,14 +17,13 @@
               <p class="leading-relaxed text-xl text-primary-700">
                 We propose to host, throughout the year, free cohorts of 5
                 weeks each. We also offer asyncronous online learning. 
-                Each cohort will be designed for up to 80 students, 20 per
-                region, with one paid, trained instructor per region teaching
+                Each cohort will be designed groups of 20 students organized by region, with one paid, trained instructor per region teaching
                 online twice a week, aided by volunteer mentor
                 coaches. Our current schedule is:
                 <ul class="pt-5 leading-relaxed text-xl text-primary-700">
-                  <li>👩‍🎓 Spring cohort​: April 5 - June 18 2021</li>
-                  <li>👩‍🎓 Fall cohort​: September 6 - October 8 2021</li>
-  
+                  <li>👩‍🎓 C0: April 5 - June 18 2021</li>
+                  <li>👩‍🎓 C1​: September 6 - October 8 2021</li>
+                  <li>👩‍🎓 C2​: January 10 - February 18 2022</li>
                 </ul>
               </p>
               
@@ -42,7 +41,7 @@
                 class="rounded-lg bg-gray-300 m-5 p-5 font-bold leading-relaxed text-xl text-primary-700"
               >
                 Front-End Foxes School is a part-time program, taught twice a
-                week in the evenings for 5 weeks per cohort - perfect for working women, students and
+                week in the evenings for 6 weeks per cohort - perfect for working women, students and
                 moms. We also offer ad hoc asyncronous classroom learning. We will ALWAYS be free of charge for students with no
                 strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML.
               </p>
@@ -56,7 +55,7 @@
           
           <div class="pt-2 w-full leading-relaxed text-xl text-primary-700">
             <span class="font-bold">Students</span> will learn the basics of web
-            development with JavaScript, HTML and CSS. Our project-based curriculum
+            development with JavaScript, HTML and CSS and become comfortable with GitHub. Our project-based curriculum
             allows new developers to create and maintain a web portfolio site
             and a GitHub presence for professional use. Our curriculum is partly
             based on Microsoft's
@@ -85,7 +84,7 @@
                 development skills, skills often not taught in college.
               </p>
               <p>
-                🦊 We will use a project-based curriculum designed to help
+                🦊 We will use a curriculum designed to help
                 students build their professional portfolios.
               </p>
               <p>

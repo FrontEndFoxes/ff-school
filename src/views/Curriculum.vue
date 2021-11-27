@@ -40,12 +40,10 @@
                   >"Web Dev for Beginners"</a
                 >
                 curriculum, developed by a team led by Jen. In addition, we
-                offer four lessons at the end of the cohort to teach the basics
-                of React.js in order to create a web portfolio site useful to
-                students when seeking jobs. The students will complete four
-                projects in vanilla JavaScript, learning HTML and CSS basics
-                along the way, and then have creative freedom to build a
-                portfolio site in React.js reflecting their personal brand.
+                offer two lessons at the end of the cohort to teach the basics
+                of Vue.js in order to create a web portfolio site useful to
+                students when seeking jobs. The students will learn GitHub basics and then dive into HTML and CSS.
+                They will work on their portfolio site throughout the cohort and have a showcase at the end of week 5.
                 Mentors and Instructors will be available to give feedback and
                 help as the student progresses.
               </p>
@@ -70,139 +68,45 @@
             <tbody>
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">1</td>
-                <td class="p-5">Getting Started</td>
+                <td class="p-5">Getting Started as a Web Programmer</td>
                 <td class="p-5">
-                  Introduction to Programming and Tools of the Trade
+                  Introduction to Programming and Tools of the Trade, Basics of GitHub
                 </td>
               </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">1</td>
-                <td class="p-5">Getting Started</td>
-                <td class="p-5">
-                  Basics of GitHub, includes working with a team
-                </td>
-              </tr>
+    
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">2</td>
-                <td class="p-5">Getting Started</td>
-                <td class="p-5">Accessibility</td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">2</td>
-                <td class="p-5">JS Basics</td>
-                <td class="p-5">JavaScript Data Types</td>
+                <td class="p-5">Accessibility and Semantic HTML</td>
+                <td class="p-5">Writing HTML for Everyone</td>
               </tr>
 
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">3</td>
-                <td class="p-5">JS Basics</td>
-                <td class="p-5">Functions and Methods</td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">3</td>
-                <td class="p-5">JS Basics</td>
-                <td class="p-5">Making Decisions with JS</td>
+                <td class="p-5">Introduction to CSS</td>
+                <td class="p-5">Style your Apps!</td>
               </tr>
 
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">4</td>
-                <td class="p-5">JS Basics</td>
-                <td class="p-5">Arrays and Loops</td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">4</td>
-                <td class="p-5">Terrarium</td>
-                <td class="p-5">HTML in Practice</td>
+                <td class="p-5">Introduction to JavaScript</td>
+                <td class="p-5">Variables, Functions and Methods, Making Decisions, Conditionals</td>
               </tr>
 
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">5</td>
-                <td class="p-5">Terrarium</td>
-                <td class="p-5">CSS in Practice</td>
+                <td class="p-5">Applied JavaScript</td>
+                <td class="p-5">Build a Typing Game and a Todo App</td>
               </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">5</td>
-                <td class="p-5">Terrarium</td>
-                <td class="p-5">JavaScript Closures, DOM manipulation</td>
-              </tr>
-
+              
               <tr class="border-solid border border-gray-800">
                 <td class="p-5">6</td>
-                <td class="p-5">Typing Game</td>
-                <td class="p-5">Event-Driven Development</td>
+                <td class="p-5">Introduction to Vue, SPAS and PWAs</td>
+                <td class="p-5">Build Apps with Modern Frameworks and support Offline users</td>
               </tr>
 
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">6</td>
-                <td class="p-5">Green Browser Extension</td>
-                <td class="p-5">Working with Browsers</td>
-              </tr>
+             
 
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">7</td>
-                <td class="p-5">Green Browser Extension</td>
-                <td class="p-5">
-                  Building a form, calling an API and storing variables in local
-                  storage
-                </td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">7</td>
-                <td class="p-5">Green Browser Extension</td>
-                <td class="p-5">
-                  Background processes in the browser, web performance
-                </td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">8</td>
-                <td class="p-5">Banking App</td>
-                <td class="p-5">HTML Templates and Routes in a Web App</td>
-              </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">8</td>
-                <td class="p-5">Banking App</td>
-                <td class="p-5">Build a Login and Registration Form</td>
-              </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">9</td>
-                <td class="p-5">Banking App</td>
-                <td class="p-5">Methods of Fetching and Using Data</td>
-              </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">9</td>
-                <td class="p-5">Banking App</td>
-                <td class="p-5">Concepts of State Management</td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">10</td>
-                <td class="p-5">A taste of Vue.js</td>
-                <td class="p-5">Build a pet adoption app with Vue</td>
-              </tr>
-
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">10</td>
-                <td class="p-5">Build your Portfolio with React</td>
-                <td class="p-5">
-                  Introduction to React.js; JSX, Scaffold your site
-                </td>
-              </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">11</td>
-                <td class="p-5">Build your Portfolio with React</td>
-                <td class="p-5">Components, Props, Methods</td>
-              </tr>
-              <tr class="border-solid border border-gray-800">
-                <td class="p-5">11</td>
-                <td class="p-5">Build your Portfolio with React</td>
-                <td class="p-5">State Management in React, Routing</td>
-              </tr>
+              
             </tbody>
           </table>
 
