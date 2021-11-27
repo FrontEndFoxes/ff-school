@@ -160,8 +160,8 @@
           "
           href="/"
         >
-          <img class="pull-left pt-1" src="../assets/logo-sm.png" alt="" />
-          <span class="pt-5 pl-3">Front-End Foxes School</span>
+          <img class="float-left pt-1" src="../assets/logo-sm.png" alt="Front-End Foxes School" />
+          <span class="pt-1 pl-3">Front-End Foxes School</span>
         </a>
       </div>
 
