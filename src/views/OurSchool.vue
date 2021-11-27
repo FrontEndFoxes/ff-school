@@ -80,7 +80,7 @@
             <h2 class="mb-4 text-3xl font-semibold mt-5">Our Goals</h2>
             <div class="w-full leading-relaxed text-xl text-primary-700">
               <p>
-                🦊 We propose to teach cohorts of women front-end web
+                🦊 We teach cohorts of women front-end web
                 development skills, skills often not taught in college.
               </p>
               <p>

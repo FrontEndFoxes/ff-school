@@ -43,7 +43,7 @@
                 offer two lessons at the end of the cohort to teach the basics
                 of Vue.js in order to create a web portfolio site useful to
                 students when seeking jobs. The students will learn GitHub basics and then dive into HTML and CSS.
-                They will work on their portfolio site throughout the cohort and have a showcase at the end of week 5.
+                They will work on their portfolio site throughout the cohort and have a showcase at the end of week 6.
                 Mentors and Instructors will be available to give feedback and
                 help as the student progresses.
               </p>
