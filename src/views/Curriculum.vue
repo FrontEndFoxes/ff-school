@@ -110,14 +110,14 @@
             </tbody>
           </table>
 
-          <!--<div class="mb-5">
+          <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications for our September cohort
+              We are now accepting applications for our January cohort
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
             >
               <div
                 class="
@@ -135,7 +135,7 @@
                 Register
               </div>
             </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>

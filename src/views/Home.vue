@@ -12,7 +12,7 @@
             development skills with us either in person or by studying in our
             self-driven classroom. Our live teacher-led cohort will begin
             again in early 2022.
-            <!--Registration for the live cohort is now open.-->
+            Registration for the live cohort is now open.
             Sign up for a
             <a
               class="cursor-pointer underline"
@@ -23,7 +23,7 @@
             any time!
           </p>
 
-          <!--<div
+          <div
             class="
               mb-5
               flex flex-wrap
@@ -50,10 +50,10 @@
                 hover:bg-secondary-400
               "
               target="_blank"
-              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
               ><div class="uppercase text-center text-lg">Register</div></a
             >
-          </div>-->
+          </div>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">

@@ -217,24 +217,24 @@
             </h2>
 
             <div class="w-full leading-relaxed text-xl text-primary-700">
-              <!--<p>
+              <p>
                 👩‍🏫 Teach! We are currently looking for instructors eager to
                 teach! This is a paid position and we want to hear from you!
                 Please apply as an instructor
-                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                <a class="underline" href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
                   >using this form</a
                 >.
               </p>
 
               <p>
-                💪 Coach! We are looking for volunteer mentors to help coach
+                💪 Mentor! We are looking for volunteer mentors to help coach
                 students. Come bring your skills as a developer and help the
                 next generation of women developers enter the work force. If you
-                want to coach, please apply as a mentor
-                <a class="underline" href="https://forms.gle/Yk8sWmKdLiKgSvvC9"
+                want to mentor, please apply as a mentor
+                <a class="underline" href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
                   >using this form</a
                 >.
-              </p>-->
+              </p>
               <p>
                 🏆 Learn! If you are interested in joining us as a
                 self-learning student, please apply

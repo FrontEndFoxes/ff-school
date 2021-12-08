@@ -70,14 +70,14 @@
                 </div>
               </div>
             </div>
-         <!--<div class="mb-5">
+         <div class="mb-5">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications our September cohort
+              We are now accepting applications our January 2022 cohort
             </h3>
             <a
               class="text-white"
               target="_blank"
-              href="https://forms.gle/xF6EbqAiQdWgbp9Q9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
             >
               <div
                 class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
@@ -85,7 +85,7 @@
                 Register
               </div>
             </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>
