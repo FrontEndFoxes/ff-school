@@ -10,9 +10,8 @@
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             For women, by women. Always free of charge. Grow your front-end
             development skills with us either in person or by studying in our
-            self-driven classroom. Our live teacher-led cohort will begin
-            again in early 2022.
-            Registration for the live cohort is now open.
+            self-driven classroom.  {{status}} <span v-if="regFormOpen">
+           Registration for the live cohort is now open.</span>
             Sign up for a
             <a
               class="cursor-pointer underline"
@@ -23,7 +22,7 @@
             any time!
           </p>
 
-          <div
+          <div v-if="regFormOpen"
             class="
               mb-5
               flex flex-wrap
@@ -50,7 +49,7 @@
                 hover:bg-secondary-400
               "
               target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
+              :href="formUrl"
               ><div class="uppercase text-center text-lg">Register</div></a
             >
           </div>
@@ -147,6 +146,19 @@
   </section>
 </template>
 
+<script>
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "Home",
+   data() {
+        return {
+            regFormOpen: this.regFormOpen,
+            formUrl: this.formUrl,
+            status: this.status
+        }
+    }
+});
+</script>
 
 <style>
 .nav,
@@ -170,3 +182,4 @@
   max-width: 500px;
 }
 </style>
+

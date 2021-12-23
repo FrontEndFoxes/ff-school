@@ -57,36 +57,10 @@
                 <a class="underline" href="mailto:jen@frontendfoxes.org">Jen</a>
                 to receive a prospectus and to become a sponsor.
               </p>
-              <div>
-                <div class="text-center mt-6">
-                  <a
-                    class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
-                    target="_blank"
-                    href="https://us7.list-manage.com/contact-form?u=bb4724549551e6cf7bb5e3165&form_id=b15c2877e7d0009daf90e6911111e5b4"
-                    ><span class="p-5 uppercase text-center text-lg">
-                      Contact us for a Prospectus
-                    </span></a
-                  >
-                </div>
-              </div>
+              
             </div>
-         <div class="mb-5">
-            <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications our January 2022 cohort
-            </h3>
-            <a
-              class="text-white"
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
-            >
-              <div
-                class="rounded-lg w-full md:w-1/2 m-auto py-3 uppercase text-center text-lg bg-secondary-500 hover:bg-secondary-400"
-              >
-                Register
-              </div>
-            </a>
-          </div>
-        </div>
+            <Register/>
+        </div> 
       </div>
     </div>
   </div>
@@ -94,9 +68,13 @@
 
 <script>
 import { defineComponent } from "vue";
-
+import Register from "../components/Register.vue";
 export default defineComponent({
   name: "About",
+  components: {
+    Register
+  }
+  
 });
 </script>
 

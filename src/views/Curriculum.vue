@@ -110,32 +110,7 @@
             </tbody>
           </table>
 
-          <div class="mb-5">
-            <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications for our January cohort
-            </h3>
-            <a
-              class="text-white"
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
-            >
-              <div
-                class="
-                  rounded-lg
-                  w-full
-                  md:w-1/2
-                  m-auto
-                  py-3
-                  uppercase
-                  text-center text-lg
-                  bg-secondary-500
-                  hover:bg-secondary-400
-                "
-              >
-                Register
-              </div>
-            </a>
-          </div>
+          <Register/>
         </div>
       </div>
     </div>
@@ -144,9 +119,11 @@
 
 <script>
 import { defineComponent } from "vue";
+import Register from "../components/Register.vue";
 
 export default defineComponent({
-  name: "Curriculum",
+    name: "Curriculum",
+    components: { Register }
 });
 </script>
 

@@ -101,7 +101,7 @@
               >
             </li>
 
-            <li @click="isOpen = false">
+            <li v-if="regFormOpen" @click="isOpen = false">
               <a
                 target="_blank"
                 class="
@@ -112,7 +112,7 @@
                   hover:bg-blue-800
                   hover:text-white
                 "
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
+                :href="formUrl"
                 >Register</a
               >
             </li>
@@ -206,12 +206,12 @@
             >
           </li>
 
-          <li class="hover:bg-blue-900">
+          <li v-if="regFormOpen" class="hover:bg-blue-900">
             <a
               active-class="bg-blue-800"
               target="_blank"
               class="uppercase inline-block p-5 text-white no-underline"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
+              :href="formUrl"
               >Register</a
             >
           </li>
@@ -238,9 +238,12 @@
 </template>
 <script>
 export default {
+
   data() {
     return {
       isOpen: false,
+      regFormOpen: this.regFormOpen,
+      formUrl: this.formUrl
     };
   },
   methods: {

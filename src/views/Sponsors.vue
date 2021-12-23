@@ -211,7 +211,7 @@
               />
             </div>
           </div>
-          <div class="w-full leading-relaxed text-xl text-primary-700">
+          <div v-if="regFormOpen" class="w-full leading-relaxed text-xl text-primary-700">
             <h2 class="mb-4 text-3xl font-semibold">
               You can help in other ways as well!
             </h2>
@@ -221,7 +221,7 @@
                 👩‍🏫 Teach! We are currently looking for instructors eager to
                 teach! This is a paid position and we want to hear from you!
                 Please apply as an instructor
-                <a class="underline" href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
+                <a class="underline" :href="formUrl"
                   >using this form</a
                 >.
               </p>
@@ -231,17 +231,11 @@
                 students. Come bring your skills as a developer and help the
                 next generation of women developers enter the work force. If you
                 want to mentor, please apply as a mentor
-                <a class="underline" href="https://docs.google.com/forms/d/e/1FAIpQLSe09HSqhJE9mAf_x26J4SFeTITF848nqaTmz-kGoVhMULVqCA/viewform"
+                <a class="underline" :href="formUrl"
                   >using this form</a
                 >.
               </p>
-              <p>
-                🏆 Learn! If you are interested in joining us as a
-                self-learning student, please apply
-                <a class="underline" href="https://forms.gle/GA9pUe8AFkcJJQvSA"
-                  >using this form</a
-                >.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -255,6 +249,11 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Sponsor",
+  data() {
+        return {
+            regFormOpen: this.regFormOpen
+        }
+    }
 });
 </script>
 
