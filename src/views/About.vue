@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-blue-100 h-full">
     <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
@@ -42,9 +42,9 @@
           <div class="w-full leading-relaxed text-xl text-primary-700">
             In 2020 we pivoted to an entirely online format, and hosted several
             Zoom workshops and streamed events via our chapters. In 2021 we
-            propose to retain this model for the Community wing of the
-            organization while creating a completely new, Educational wing. With
-            this structure we intend to launch a new online boot camp to teach
+            paired this model for the Community wing of the
+            organization with a completely new, Educational wing. With
+            this structure in place we launched a new online boot camp to teach
             development skills to women in a new and unique way. We are one of
             the very few non-corporate, free-of-charge community-generated boot
             camps for women in the world.

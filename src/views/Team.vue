@@ -7,7 +7,7 @@
         Our Team
       </h1>
       <div
-        class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"
+        class="h-1 mx-auto  w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"
       ></div>
       <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">

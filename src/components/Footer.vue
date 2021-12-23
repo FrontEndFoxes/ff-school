@@ -15,6 +15,19 @@
                 A 501(c)(3) Public Charity
               </span>
             </li>
+
+            <li class="mr-3">
+              <a href="/reports" class="underline hover:text-orange-600">
+                Annual Reports
+              </a>
+            </li>
+
+             <li class="mr-3">
+              <span class="hover:text-orange-600">
+                &copy; 2020 Front-End Foxes, Inc.
+              </span>
+            </li>
+
           </ul>
         </div>
         <div

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-blue-100 h-full">
     <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
       <h1
         class="
