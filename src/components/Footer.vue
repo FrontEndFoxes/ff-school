@@ -24,7 +24,7 @@
 
              <li class="mr-3">
               <span class="hover:text-orange-600">
-                &copy; 2020 Front-End Foxes, Inc.
+                &copy; 2022 Front-End Foxes, Inc.
               </span>
             </li>
 
