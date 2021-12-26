@@ -129,6 +129,64 @@
         </div>
       </div>
 
+      <div class="max-w-6xl mx-auto">
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/becca.jpg"
+                alt="Becca Wyland"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold"
+                      >Becca Wyland (Americas Cohort Instructor)</span
+                    >
+                 is a seasoned mentor and instructor at Front-End Foxes School.
+                  </p>
+                </blockquote>
+              </div>
+
+              
+
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto">
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/sedinam.jpg"
+                alt="Sedinam Dwamena"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold"
+                      >Sedinam Dwamena (Africa Cohort Instructor)</span
+                    >
+                 has been a mentor at Front-End Foxes School for the last two cohorts and is happy to step into a new instructor role for the C2 cohort!
+                  </p>
+                </blockquote>
+              </div>
+
+              
+
+            </figure>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </div>
