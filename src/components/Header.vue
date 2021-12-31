@@ -119,6 +119,7 @@
             <li v-if="regFormOpen" @click="isOpen = false">
               <a
                 target="_blank"
+                rel="noopener"
                 class="
                   flex
                   text-lg
@@ -234,6 +235,7 @@
             <a
               active-class="bg-blue-800"
               target="_blank"
+              rel="noopener"
               class="uppercase inline-block p-5 text-white no-underline"
               :href="formUrl"
               >Register</a

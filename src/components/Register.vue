@@ -6,6 +6,7 @@
             <a
               class="text-white"
               target="_blank"
+              rel="noopener"
               :href="formUrl"
             >
               <div

@@ -20,6 +20,7 @@
               class="font-bold text-1xl text-gray-600 underline"
               href="/reports/annual-report-2018-min.pdf"
               target="_blank"
+              rel="noopener"
               >2018</a
             >
           </div>
@@ -34,6 +35,7 @@
               class="font-bold text-1xl text-gray-600 underline"
               href="/reports/annual-report-2019-min.pdf"
               target="_blank"
+              rel="noopener"
               >2019</a
             >
           </div>
@@ -48,6 +50,7 @@
               class="font-bold text-1xl text-gray-600 underline"
               href="/reports/annual-report-2020-min.pdf"
               target="_blank"
+              rel="noopener"
               >2020</a
             >
           </div>

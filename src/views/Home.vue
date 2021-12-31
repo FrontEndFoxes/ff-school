@@ -17,6 +17,7 @@
               class="cursor-pointer underline"
               href="https://forms.gle/GA9pUe8AFkcJJQvSA"
               target="_blank"
+              rel="noopener"
               >self-study class</a
             >
             any time!
@@ -49,6 +50,7 @@
                 hover:bg-secondary-400
               "
               target="_blank"
+              rel="noopener"
               :href="formUrl"
               ><div class="uppercase text-center text-lg">Register</div></a
             >

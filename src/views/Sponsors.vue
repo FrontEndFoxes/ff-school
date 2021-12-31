@@ -34,6 +34,7 @@
                       class="underline"
                       href="https://herodevs.com"
                       target="_blank"
+                      rel="noopener"
                       >https://www.herodevs.com</a
                     >.
                   </p>
@@ -62,6 +63,7 @@
                       class="underline"
                       href="https://passionatepeople.io"
                       target="_blank"
+                      rel="noopener"
                       >https://www.passionatepeople.io</a
                     >.
                   </p>
@@ -102,6 +104,7 @@
                       class="underline"
                       href="https://www.telerik.com/kendo-ui"
                       target="_blank"
+                      rel="noopener"
                       >https://www.telerik.com/kendo-ui</a
                     >.
                   </p>
@@ -140,6 +143,7 @@
                       class="underline"
                       href="https://pachicodes.com"
                       target="_blank"
+                      rel="noopener"
                       >PachiCodes.com</a
                     >.
                   </p>
@@ -168,6 +172,7 @@
                       class="underline"
                       href="https://github.com/sponsors/FrontEndFoxes"
                       target="_blank"
+                      rel="noopener"
                       >GitHub Sponsors</a
                     >.
                   </p>
@@ -195,6 +200,7 @@
                   <a
                     class="text-white mt-6 rounded-lg py-3 bg-blue-800 hover:bg-blue-500"
                     target="_blank"
+                    rel="noopener"
                     href="https://us7.list-manage.com/contact-form?u=bb4724549551e6cf7bb5e3165&form_id=b15c2877e7d0009daf90e6911111e5b4"
                     ><span class="p-5 uppercase text-center text-lg">
                       Contact us for a Prospectus
