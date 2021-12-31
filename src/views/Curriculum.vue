@@ -37,6 +37,7 @@
                   class="underline"
                   href="https://aka.ms/webdev-beginners"
                   target="_blank"
+                  rel="noopener"
                   >"Web Dev for Beginners"</a
                 >
                 curriculum, developed by a team led by Jen. In addition, we
