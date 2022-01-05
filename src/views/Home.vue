@@ -1,10 +1,10 @@
 <template>
-  <main class="relative">
+  <main class="relative py-10">
     <div class="pt-24 py-20">
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 text-left md:text-left">
-          <h1 class="my-4 text-5xl md:text-6xl font-bold leading-tight">
+          <h1 class="my-4 text-5xl md:text-6xl font-bold leading-normal">
             A New Kind of Bootcamp
           </h1>
           <p
@@ -85,10 +85,6 @@
       </svg>
     </div>
 
-    <!-- TODO: upgrade images -->
-
-    <!-- TODO: test on multiple screens -->
-
     <section class="py-10 md:py-20" style="background-color: #f7fafc">
       <vueper-slides
         class="no-shadow"
@@ -107,16 +103,20 @@
               class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row"
             >
               <!-- image -->
-              <div class="w-full md:w-1/2 p-2">
+              <div class="w-full lg:w-1/2 p-2">
                 <img
-                  :src="slide.picture"
-                  :alt="slide.fullName"
                   class="w-full h-full object-cover shadow-lg rounded-lg"
+                  :src="slide.smallPicture"
+                  :alt="slide.fullName"
+                  width="300"
+                  height="200"
+                  :srcset="`${slide.smallPicture} 300w, ${slide.mediumPicture} 600w,
+                    ${slide.largePicture} 1200w`"
                 />
               </div>
 
               <!-- text -->
-              <div class="w-full md:w-1/2 object-cover p-6">
+              <div class="w-full lg:w-1/2 p-6">
                 <div class="text-blue-800 font-bold leading-normal text-left">
                   <h2 class="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
                     We Get Results
@@ -159,21 +159,33 @@ export default defineComponent({
       slides: [
         {
           fullName: "Karla Agraz",
-          picture: "./src/assets/testimonial-karla-agraz.png",
+          smallPicture: "./src/assets/testimonial-karla-agraz-small-300.png",
+          mediumPicture: "./src/assets/testimonial-karla-agraz-medium-600.png",
+          largePicture: "./src/assets/testimonial-karla-agraz-large-1200.png",
           about: "UI developer, Peru",
           testimonial:
             "Personally, [the boot camp] helped me learn JavaScript and stop the fear of programming. The atmosphere of the classes is very cool. The other girls also inspired me that I could get a good job. The people at work liked what I was learning. It helped me in the hiring process.",
         },
         {
           fullName: "Oluwaseyi Olulaye",
-          picture: "./src/assets/testimonial-oluwaseyi-olulaye.png",
+          smallPicture:
+            "./src/assets/testimonial-oluwaseyi-olulaye-small-300.png",
+          mediumPicture:
+            "./src/assets/testimonial-oluwaseyi-olulaye-medium-600.png",
+          largePicture:
+            "./src/assets/testimonial-oluwaseyi-olulaye-large-1200.png",
           about: "Front-End Intern, Nigeria",
           testimonial:
             "Front-End Foxes Bootcamp gave me the confidence and the motivation to continue honing my skills in web development. My instructor made sure we got the fundamentals right. Now I am part of a great startup company as an intern, where I can put my skills to good use.",
         },
         {
           fullName: "Daniela Sanchez",
-          picture: "./src/assets/testimonial-daniela-sanchez.png",
+          smallPicture:
+            "./src/assets/testimonial-daniela-sanchez-small-300.png",
+          mediumPicture:
+            "./src/assets/testimonial-daniela-sanchez-medium-600.png",
+          largePicture:
+            "./src/assets/testimonial-daniela-sanchez-large-1200.png",
           about: "IT Analyst, Mexico",
           testimonial:
             "The Front-End Foxes Bootcamp was a before and after in my training as a professional in IT. Thanks to my mentors and classmates, who helped me boost my knowledge and self-confidence. Now, I am part of a great company where I can show my skills.",
@@ -183,17 +195,26 @@ export default defineComponent({
         2441: {
           slideRatio: 0.3,
         },
-        770: {
-          slideRatio: 0.6,
+        1025: {
+          slideRatio: 0.4,
         },
-        650: {
+        1024: {
           slideRatio: 1,
         },
-        649: {
+        601: {
+          slideRatio: 1.25,
+        },
+        500: {
           slideRatio: 1.5,
         },
         360: {
+          slideRatio: 2.75,
+        },
+        321: {
           slideRatio: 2,
+        },
+        300: {
+          slideRatio: 2.75,
         },
       },
     };
@@ -219,7 +240,7 @@ export default defineComponent({
   max-width: 500px;
 }
 
-/* info on slides: https://antoniandre.github.io/vueper-slides */
+/* info on vueperslides: https://antoniandre.github.io/vueper-slides */
 .vueperslides__arrow {
   color: rgb(0, 0, 0);
 }
