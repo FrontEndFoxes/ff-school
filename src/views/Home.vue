@@ -4,11 +4,11 @@
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 text-left md:text-left">
-          <h1 class="my-4 text-5xl md:text-6xl font-bold leading-normal">
+          <h1 class="my-4 text-4xl md:text-6xl font-bold leading-normal">
             A New Kind of Bootcamp
           </h1>
           <p
-            class="leading-normal text-xl md:text-xl lg:text-2xl xl:text-3xl mb-8"
+            class="leading-normal text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8"
           >
             For women, by women. Always free of charge. Grow your front-end
             development skills with us either in person or by studying in our
@@ -110,27 +110,27 @@
                   :alt="slide.fullName"
                   width="300"
                   height="200"
-                  :srcset="`${slide.smallPicture} 300w, ${slide.mediumPicture} 600w,
-                    ${slide.largePicture} 1200w`"
+                  :srcset="`${slide.smallPicture} 1x, ${slide.mediumPicture} 2x,
+                    ${slide.largePicture} 3x`"
                 />
               </div>
 
               <!-- text -->
               <div class="w-full lg:w-1/2 p-6">
                 <div class="text-blue-800 font-bold leading-normal text-left">
-                  <h2 class="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
+                  <h2 class="text-3xl md:text-5xl lg:text-5xl 2xl:text-6xl">
                     We Get Results
                   </h2>
-                  <h3 class="text-xl md:text-2xl lg:text-3xl 2xl:text-5xl">
+                  <h3 class="text-xl md:text-3xl lg:text-3xl 2xl:text-5xl">
                     Meet {{ slide.fullName }}
                   </h3>
                 </div>
 
                 <div class="leading-normal text-gray-800">
-                  <p class="text-md md:text-lg lg:text-xl 2xl:text-3xl mb-4">
+                  <p class="text-md md:text-xl lg:text-xl 2xl:text-3xl mb-4">
                     <em>{{ slide.about }}</em>
                   </p>
-                  <p class="text-md md:text-lg lg:text-xl 2xl:text-3xl">
+                  <p class="text-md md:text-xl lg:text-xl 2xl:text-3xl">
                     {{ slide.testimonial }}
                   </p>
                 </div>
@@ -207,14 +207,14 @@ export default defineComponent({
         500: {
           slideRatio: 1.5,
         },
-        360: {
+        350: {
           slideRatio: 2.75,
         },
         321: {
-          slideRatio: 2,
+          slideRatio: 2.1,
         },
         300: {
-          slideRatio: 2.75,
+          slideRatio: 3,
         },
       },
     };
@@ -240,7 +240,8 @@ export default defineComponent({
   max-width: 500px;
 }
 
-/* info on vueperslides: https://antoniandre.github.io/vueper-slides */
+/* Testimonial slides */
+/* info on vueper slides: https://antoniandre.github.io/vueper-slides */
 .vueperslides__arrow {
   color: rgb(0, 0, 0);
 }
