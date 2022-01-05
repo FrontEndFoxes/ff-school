@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "vue": "^3.0.5",
-    "vue-router": "^4.0.0-alpha.11"
+    "vue-router": "^4.0.0-alpha.11",
+    "vueperslides": "^3.3.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.2",
