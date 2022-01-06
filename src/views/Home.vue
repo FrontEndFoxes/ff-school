@@ -277,4 +277,7 @@ export default defineComponent({
   color: rgb(0, 0, 0);
 }
 
+.vueperslides__arrow:focus {
+  outline: none;
+}
 </style>
