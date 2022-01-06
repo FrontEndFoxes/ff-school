@@ -85,14 +85,40 @@
       </svg>
     </div>
 
-    <section class="py-10 md:py-20" style="background-color: #f7fafc">
+<section class="py-8" style="background-color: #f7fafc">
+    <div class="container mx-auto flex flex-wrap pt-4">
+      <h2
+        class="
+          w-full
+          text-3xl
+          md:text-5xl
+          font-bold
+          leading-tight
+          text-center text-gray-800
+        "
+      >
+        We Get Results
+      </h2>
+      <div class="w-full mb-4">
+        <div
+          class="h-1 mx-auto gradient w-64 opacity-25 my-3 py-0 rounded-t"
+        ></div>
+      </div>
+    </div>
+</section>
+
+    <section class="py-5 md:py-10" style="background-color: #f7fafc">
       <vueper-slides
         class="no-shadow"
         :breakpoints="breakpoints"
         :dragging-distance="70"
         prevent-y-scroll
         :bullets="false"
+        
       >
+
+      
+
         <vueper-slide
           v-for="(slide, i) in slides"
           :key="i"
@@ -115,15 +141,18 @@
                 />
               </div>
 
+
+              
+
               <!-- text -->
               <div class="w-full lg:w-1/2 p-6">
-                <div class="text-blue-800 font-bold leading-normal text-left">
-                  <h2 class="text-3xl md:text-5xl lg:text-5xl 2xl:text-6xl">
-                    We Get Results
-                  </h2>
+                <div class="text-secondary-600 font-bold leading-normal text-left">
+                  
                   <h3 class="text-xl md:text-3xl lg:text-3xl 2xl:text-5xl">
-                    Meet {{ slide.fullName }}
+                    {{ slide.fullName }}
                   </h3>
+                   <div class="h-1 gradient w-64 opacity-25 my-3 py-0 rounded-t">
+                   </div>
                 </div>
 
                 <div class="leading-normal text-gray-800">
@@ -131,10 +160,11 @@
                     <em>{{ slide.about }}</em>
                   </p>
                   <p class="text-md md:text-xl lg:text-xl 2xl:text-3xl">
-                    {{ slide.testimonial }}
+                   "{{ slide.testimonial }}"
                   </p>
                 </div>
               </div>
+              
             </div>
           </template>
         </vueper-slide>
@@ -155,13 +185,14 @@ export default defineComponent({
       regFormOpen: this.regFormOpen,
       formUrl: this.formUrl,
       status: this.status,
+      
       // Testimonial slides
       slides: [
         {
           fullName: "Karla Agraz",
-          smallPicture: "./src/assets/testimonial-karla-agraz-small-300.png",
-          mediumPicture: "./src/assets/testimonial-karla-agraz-medium-600.png",
-          largePicture: "./src/assets/testimonial-karla-agraz-large-1200.png",
+          smallPicture: "../testimonials/testimonial-karla-agraz-small-300.png",
+          mediumPicture: "../testimonials/testimonial-karla-agraz-medium-600.png",
+          largePicture: "../testimonials/testimonial-karla-agraz-large-1200.png",
           about: "UI developer, Peru",
           testimonial:
             "Personally, [the boot camp] helped me learn JavaScript and stop the fear of programming. The atmosphere of the classes is very cool. The other girls also inspired me that I could get a good job. The people at work liked what I was learning. It helped me in the hiring process.",
@@ -169,11 +200,11 @@ export default defineComponent({
         {
           fullName: "Oluwaseyi Olulaye",
           smallPicture:
-            "./src/assets/testimonial-oluwaseyi-olulaye-small-300.png",
+            "../testimonials/testimonial-oluwaseyi-olulaye-small-300.png",
           mediumPicture:
-            "./src/assets/testimonial-oluwaseyi-olulaye-medium-600.png",
+            "../testimonials/testimonial-oluwaseyi-olulaye-medium-600.png",
           largePicture:
-            "./src/assets/testimonial-oluwaseyi-olulaye-large-1200.png",
+            "../testimonials/testimonial-oluwaseyi-olulaye-large-1200.png",
           about: "Front-End Intern, Nigeria",
           testimonial:
             "Front-End Foxes Bootcamp gave me the confidence and the motivation to continue honing my skills in web development. My instructor made sure we got the fundamentals right. Now I am part of a great startup company as an intern, where I can put my skills to good use.",
@@ -181,11 +212,11 @@ export default defineComponent({
         {
           fullName: "Daniela Sanchez",
           smallPicture:
-            "./src/assets/testimonial-daniela-sanchez-small-300.png",
+            "../testimonials/testimonial-daniela-sanchez-small-300.png",
           mediumPicture:
-            "./src/assets/testimonial-daniela-sanchez-medium-600.png",
+            "../testimonials/testimonial-daniela-sanchez-medium-600.png",
           largePicture:
-            "./src/assets/testimonial-daniela-sanchez-large-1200.png",
+            "../testimonials/testimonial-daniela-sanchez-large-1200.png",
           about: "IT Analyst, Mexico",
           testimonial:
             "The Front-End Foxes Bootcamp was a before and after in my training as a professional in IT. Thanks to my mentors and classmates, who helped me boost my knowledge and self-confidence. Now, I am part of a great company where I can show my skills.",
@@ -245,4 +276,5 @@ export default defineComponent({
 .vueperslides__arrow {
   color: rgb(0, 0, 0);
 }
+
 </style>
