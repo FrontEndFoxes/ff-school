@@ -1,56 +1,38 @@
 <template>
-  <main class="relative">
-    <div class="pt-24">
+  <main class="relative py-10">
+    <div class="pt-24 py-20">
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
-        <div class="flex flex-col w-full md:w-3/5 text-center md:text-left">
-          <h1 class="my-4 text-5xl font-bold leading-tight">
+        <div class="flex flex-col w-full md:w-3/5 text-left md:text-left">
+          <h1 class="my-4 text-4xl md:text-6xl font-bold leading-normal">
             A New Kind of Bootcamp
           </h1>
-          <p class="leading-normal text-2xl md:text-4xl mb-8">
+          <p
+            class="leading-normal text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8"
+          >
             For women, by women. Always free of charge. Grow your front-end
             development skills with us either in person or by studying in our
-            self-driven classroom.  {{status}} <span v-if="regFormOpen">
-           Registration for the live cohort is now open.</span>
+            self-driven classroom. {{ status }}
+            <span v-if="regFormOpen">
+              Registration for the live cohort is now open.</span
+            >
             Sign up for a
             <a
               class="cursor-pointer underline"
               href="https://forms.gle/GA9pUe8AFkcJJQvSA"
               target="_blank"
-              rel="noopener"
               >self-study class</a
             >
             any time!
           </p>
 
-          <div v-if="regFormOpen"
-            class="
-              mb-5
-              flex flex-wrap
-              lg:flex lg:flex-no-wrap
-              md:flex
-              lg:flex-no-wrap
-              w-full
-              justify-center
-              md:justify-start
-              z-10
-            "
+          <div
+            v-if="regFormOpen"
+            class="mb-5 flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap w-full justify-center md:justify-start z-10"
           >
             <a
-              class="
-                btn
-                w-full
-                lg:w-4/12
-                text-white
-                mt-6
-                rounded-lg
-                overflow-hidden
-                py-3
-                bg-secondary-500
-                hover:bg-secondary-400
-              "
+              class="btn w-full lg:w-4/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
-              rel="noopener"
               :href="formUrl"
               ><div class="uppercase text-center text-lg">Register</div></a
             >
@@ -102,9 +84,8 @@
         </g>
       </svg>
     </div>
-  </main>
 
-  <section class="py-8" style="background-color: #f7fafc">
+<section class="py-8" style="background-color: #f7fafc">
     <div class="container mx-auto flex flex-wrap pt-4">
       <h2
         class="
@@ -123,42 +104,152 @@
           class="h-1 mx-auto gradient w-64 opacity-25 my-3 py-0 rounded-t"
         ></div>
       </div>
-
-      <div class="lg:flex">
-        <div class="lg:w-1/2 p-2">
-          <div class="p-2">
-            <img
-              class="mentoring"
-              src="../assets/karla.png"
-              alt="Karla's Testimonial"
-            />
-          </div>
-        </div>
-        <div class="lg:w-1/2 p-2">
-          <div class="p-2">
-            <img
-              class="mentoring"
-              src="../assets/daniela.png"
-              alt="Daniela's Testimonial"
-            />
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
+
+    <section class="py-5 md:py-10" style="background-color: #f7fafc">
+      <vueper-slides
+        class="no-shadow"
+        :breakpoints="breakpoints"
+        :dragging-distance="70"
+        prevent-y-scroll
+        :bullets="false"
+        
+      >
+
+      
+
+        <vueper-slide
+          v-for="(slide, i) in slides"
+          :key="i"
+          :style="'background-color: ' + '#f7fafc'"
+        >
+          <template #content>
+            <div
+              class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row"
+            >
+              <!-- image -->
+              <div class="w-full lg:w-1/2 p-2">
+                <img
+                  class="w-full h-full object-cover shadow-lg rounded-lg"
+                  :src="slide.smallPicture"
+                  :alt="slide.fullName"
+                  width="300"
+                  height="200"
+                  :srcset="`${slide.smallPicture} 1x, ${slide.mediumPicture} 2x,
+                    ${slide.largePicture} 3x`"
+                />
+              </div>
+
+
+              
+
+              <!-- text -->
+              <div class="w-full lg:w-1/2 p-6">
+                <div class="text-secondary-600 font-bold leading-normal text-left">
+                  
+                  <h3 class="text-xl md:text-3xl lg:text-3xl 2xl:text-5xl">
+                    {{ slide.fullName }}
+                  </h3>
+                   <div class="h-1 gradient w-64 opacity-25 my-3 py-0 rounded-t">
+                   </div>
+                </div>
+
+                <div class="leading-normal text-gray-800">
+                  <p class="text-md md:text-xl lg:text-xl 2xl:text-3xl mb-4">
+                    <em>{{ slide.about }}</em>
+                  </p>
+                  <p class="text-md md:text-xl lg:text-xl 2xl:text-3xl">
+                   "{{ slide.testimonial }}"
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </template>
+        </vueper-slide>
+      </vueper-slides>
+    </section>
+  </main>
 </template>
 
 <script>
 import { defineComponent } from "vue";
+import { VueperSlides, VueperSlide } from "vueperslides";
+import "vueperslides/dist/vueperslides.css";
 export default defineComponent({
+  components: { VueperSlides, VueperSlide },
   name: "Home",
-   data() {
-        return {
-            regFormOpen: this.regFormOpen,
-            formUrl: this.formUrl,
-            status: this.status
-        }
-    }
+  data() {
+    return {
+      regFormOpen: this.regFormOpen,
+      formUrl: this.formUrl,
+      status: this.status,
+      
+      // Testimonial slides
+      slides: [
+        {
+          fullName: "Karla Agraz",
+          smallPicture: "../testimonials/testimonial-karla-agraz-small-300.png",
+          mediumPicture: "../testimonials/testimonial-karla-agraz-medium-600.png",
+          largePicture: "../testimonials/testimonial-karla-agraz-large-1200.png",
+          about: "UI developer, Peru",
+          testimonial:
+            "Personally, [the boot camp] helped me learn JavaScript and stop the fear of programming. The atmosphere of the classes is very cool. The other girls also inspired me that I could get a good job. The people at work liked what I was learning. It helped me in the hiring process.",
+        },
+        {
+          fullName: "Oluwaseyi Olulaye",
+          smallPicture:
+            "../testimonials/testimonial-oluwaseyi-olulaye-small-300.png",
+          mediumPicture:
+            "../testimonials/testimonial-oluwaseyi-olulaye-medium-600.png",
+          largePicture:
+            "../testimonials/testimonial-oluwaseyi-olulaye-large-1200.png",
+          about: "Front-End Intern, Nigeria",
+          testimonial:
+            "Front-End Foxes Bootcamp gave me the confidence and the motivation to continue honing my skills in web development. My instructor made sure we got the fundamentals right. Now I am part of a great startup company as an intern, where I can put my skills to good use.",
+        },
+        {
+          fullName: "Daniela Sanchez",
+          smallPicture:
+            "../testimonials/testimonial-daniela-sanchez-small-300.png",
+          mediumPicture:
+            "../testimonials/testimonial-daniela-sanchez-medium-600.png",
+          largePicture:
+            "../testimonials/testimonial-daniela-sanchez-large-1200.png",
+          about: "IT Analyst, Mexico",
+          testimonial:
+            "The Front-End Foxes Bootcamp was a before and after in my training as a professional in IT. Thanks to my mentors and classmates, who helped me boost my knowledge and self-confidence. Now, I am part of a great company where I can show my skills.",
+        },
+      ],
+      breakpoints: {
+        2441: {
+          slideRatio: 0.3,
+        },
+        1025: {
+          slideRatio: 0.4,
+        },
+        1024: {
+          slideRatio: 1,
+        },
+        601: {
+          slideRatio: 1.25,
+        },
+        500: {
+          slideRatio: 1.5,
+        },
+        350: {
+          slideRatio: 2.75,
+        },
+        321: {
+          slideRatio: 2.1,
+        },
+        300: {
+          slideRatio: 3,
+        },
+      },
+    };
+  },
 });
 </script>
 
@@ -176,12 +267,14 @@ export default defineComponent({
   background-color: theme("colors.primary.700");
 }
 
-/*.mentoring {
-  filter: grayscale(100%);
-}*/
-
 .logo {
   max-width: 500px;
 }
-</style>
 
+/* Testimonial slides */
+/* info on vueper slides: https://antoniandre.github.io/vueper-slides */
+.vueperslides__arrow {
+  color: rgb(0, 0, 0);
+}
+
+</style>
