@@ -41,7 +41,7 @@
                   >"Web Dev for Beginners"</a
                 >
                 curriculum, developed by a team led by Jen. In addition, we
-                offer two lessons at the end of the cohort to teach the basics
+                offer lessons at the end of the cohort to teach the basics
                 of Vue.js in order to create a web portfolio site useful to
                 students when seeking jobs. The students will learn GitHub basics and then dive into HTML and CSS.
                 They will work on their portfolio site throughout the cohort and have a showcase at the end of week 6.
