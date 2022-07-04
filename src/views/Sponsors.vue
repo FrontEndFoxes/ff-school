@@ -13,10 +13,41 @@
 
       <div class="max-w-6xl mx-auto">
         <h2 class="text-center mb-4 text-3xl font-semibold text-black">
-          Gold Sponsors
+          Cohort Sponsors
         </h2>
 
         <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/reddit.png"
+                alt="Reddit"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <p class="font-bold text-xl pb-5">Reddit</p>
+                    We are delighted to welcome Reddit as our C3 #RedFox cohort sponsor! Reddit is home to thousands of communities, endless conversation, and authentic human connection. Whether you're into breaking news, sports, TV fan theories, or a never-ending stream of the internet's cutest animals, there's a community on Reddit for you. Visit Reddit at <a
+                      class="underline"
+                      href="https://reddit.com"
+                      target="_blank"
+                      rel="noopener"
+                      >https://www.reddit.com</a
+                    >.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Gold Sponsors
+        </h2>
           <div class="lg:flex mb-4">
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
               <img
