@@ -44,7 +44,35 @@
       <h2 class="text-center mb-4 text-3xl font-semibold text-black">
           Instructors
         </h2>
+        <!--Monica-->
+<div class="max-w-6xl mx-auto">
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/monica.jpg"
+                alt="Mónica Fidalgo"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold"
+                      >Mónica Fidalgo (Europe Cohort Instructor)</span
+                    >
+                 Mónica is a Frontend Developer at Storyblok with a degree in marine biology. Her goal is to inspire others and help them pursue their dreams.
+                  </p>
+                </blockquote>
+              </div>
 
+              
+
+            </figure>
+          </div>
+        </div>
+      </div>
          <!--ifeoma-->
       <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
