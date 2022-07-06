@@ -25,6 +25,11 @@
                 &copy; 2022 Front-End Foxes, Inc.
               </span>
             </li>
+             <li class="mr-3">
+              <span class="hover:text-orange-600">
+                <a href="mailto:info@frontendfoxes.org" class="underline hover:text-orange-600">Contact Us</a>
+              </span>
+            </li>
           </ul>
         </div>
         <div
@@ -56,8 +61,8 @@
             <li class="mr-3">
               <a
                 class="uppercase inline-block py-2 px-4 text-white no-underline"
-                href="mailto:info@frontendfoxes.org"
-                aria-label="Contact Us"
+                href="https://mailchi.mp/b7c4bc4325fb/newsletter-landing"
+                aria-label="Newsletter"
                 target="_blank"
                 rel="noopener"
               >
