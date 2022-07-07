@@ -44,8 +44,37 @@
       <h2 class="text-center mb-4 text-3xl font-semibold text-black">
           Instructors
         </h2>
+
+         <!--barbara-->
+       <div class="max-w-6xl mx-auto">
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/barbara.jpg"
+                alt="Bárbara Borges"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold"
+                      >Bárbara Borges (Africa Cohort Instructor)</span
+                    >
+                 is a Front-End Developer at Ecosia. She was a mentor at the C2 cohort and loves teaching!
+                  </p>
+                </blockquote>
+              </div>
+
+               </figure>
+          </div>
+        </div>
+        </div>
+        
         <!--Monica-->
-<div class="max-w-6xl mx-auto">
+			<div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
           <div class="lg:flex mb-4">
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
@@ -102,15 +131,16 @@
           </div>
         </div>
       </div>
-      <!--barbara-->
-       <div class="max-w-6xl mx-auto">
+     
+<!--katherine-->
+             <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
           <div class="lg:flex mb-4">
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
               <img
                 class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
-                src="../assets/barbara.jpg"
-                alt="Bárbara Borges"
+                src="../assets/katherine.jpg"
+                alt="Katherine Stone"
                 width="414"
                 height="414"
               />
@@ -118,9 +148,11 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Bárbara Borges (Africa Cohort Instructor)</span
+                      >Katherine Stone (Americas Cohort Instructor)</span
                     >
-                 is a Front-End Developer at Ecosia. She was a mentor at the C2 cohort and loves teaching!
+                 is a Full Stack Developer working in the Environmental Space with 22 years experience mainly in backend development.
+                  She found herself catching the spark for frontend development a few years ago, helped along by the Vue Vixens (now Front-End Foxes) school. She hopes to 
+                  help others catch the dev spark whether it be the beginning or middle of their developer journeys.
                   </p>
                 </blockquote>
               </div>
@@ -130,7 +162,10 @@
             </figure>
           </div>
         </div>
-      </div>
+      </div> 
+
+           
+    
       </div>
 
       <div class="max-w-6xl mx-auto">
