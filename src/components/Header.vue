@@ -160,6 +160,21 @@
                 >Team</router-link
               >
             </li>
+             <li @click="isOpen = false">
+              <router-link
+                class="
+                  flex
+                  text-lg
+                  items-center
+                  p-4
+                  hover:bg-blue-800
+                  hover:text-white
+                "
+                to="/reports"
+                >
+                Annual Reports</router-link
+              >
+            </li>
           </ul>
         </aside>
       </div>

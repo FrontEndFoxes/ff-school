@@ -55,6 +55,21 @@
             >
           </div>
         </div>
+         <div class="ffreport__card">
+          <ImageItem
+            class="ffreport__image"
+            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1657286794/reports/Screen_Shot_2022-07-08_at_9.23.35_AM_fwwmcc.png"
+          />
+          <div class="ffgallery__body text-center">
+            <a
+              class="font-bold text-1xl text-gray-600 underline"
+              href="/reports/annual-report-2021-min.pdf"
+              target="_blank"
+              rel="noopener"
+              >2021</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
