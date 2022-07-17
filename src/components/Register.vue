@@ -1,7 +1,7 @@
 <template>
        <div class="mb-5" v-if="regFormOpen">
             <h3 class="text-center m-4 text-2xl font-semibold mt-5">
-              We are now accepting applications our January 2022 cohort
+              We are now accepting applications our September 2022 cohort
             </h3>
             <a
               class="text-white"
