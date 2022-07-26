@@ -163,7 +163,7 @@
           </div>
         </div>
       </div> 
-
+<!--jo-->
            <div class="text-black mx-8 lg:mx-20 text-base">
           <div class="lg:flex mb-4">
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
@@ -205,7 +205,9 @@
         
       </div>
 
-    
+    <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Emerita Instructors
+        </h2>
 
       <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
