@@ -61,7 +61,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Bárbara Borges (Africa Cohort Instructor)</span
+                      >Bárbara Borges</span
                     >
                  is a Front-End Developer at Ecosia. She was a mentor at the C2 cohort and loves teaching!
                   </p>
@@ -89,7 +89,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Mónica Fidalgo (Europe Cohort Instructor)</span
+                      >Mónica Fidalgo</span
                     >
                  Mónica is a Frontend Developer at Storyblok with a degree in marine biology. Her goal is to inspire others and help them pursue their dreams.
                   </p>
@@ -118,7 +118,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Ifeoma Nwosu (Africa Cohort Instructor)</span
+                      >Ifeoma Nwosu</span
                     >
                  is Front-End Foxes chapter leader in Nigeria and is a wonderful instructor who has lead every Africa cohort from our inception.
                   </p>
@@ -148,7 +148,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Katherine Stone (Americas Cohort Instructor)</span
+                      >Katherine Stone</span
                     >
                  is a Full Stack Developer working in the Environmental Space with 22 years experience mainly in backend development.
                   She found herself catching the spark for frontend development a few years ago, helped along by the Vue Vixens (now Front-End Foxes) school. She hopes to 
@@ -178,7 +178,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Jo Franchetti (Europe Cohort Instructor)</span
+                      >Jo Franchetti</span
                     >
                     is a Lead Dev Advocate at Ably and a terrific, experienced instructor of web technologies. Jo has led several European cohorts for Front-End Foxes School and was instrumental in forging our curriculum.
                   </p>
@@ -194,41 +194,11 @@
 
          
         
-      </div>
+
     
-      </div>
+  
 
-      <div class="max-w-6xl mx-auto">
-
-         <h2 class="text-center mb-4 text-3xl font-semibold text-black">
-          Emerita Instructors
-        </h2>
-        <div class="text-black mx-8 lg:mx-20 text-base">
-          <div class="lg:flex mb-4">
-            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
-              <img
-                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
-                src="../assets/jo.jpg"
-                alt="Jo Franchetti"
-                width="414"
-                height="414"
-              />
-              <div class="pt-6 md:p-8 text-center space-y-4">
-                <blockquote>
-                  <p class="text-lg">
-                    <span class="font-bold"
-                      >Jo Franchetti (Europe Cohort Instructor)</span
-                    >
-                    is a Lead Dev Advocate at Ably and a terrific, experienced instructor of web technologies. Jo has led several European cohorts for Front-End Foxes School and was instrumental in forging our curriculum.
-                  </p>
-                </blockquote>
-              </div>
-
-              
-
-            </figure>
-          </div>
-        </div>
+      
 
 
          
@@ -252,7 +222,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Becca Wyland (Americas Cohort Instructor)</span
+                      >Becca Wyland</span
                     >
                  is a seasoned mentor and instructor at Front-End Foxes School.
                   </p>
@@ -281,7 +251,7 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Sedinam Dwamena (Africa Cohort Instructor)</span
+                      >Sedinam Dwamena</span
                     >
                  has been a mentor at Front-End Foxes School for the last two cohorts and is happy to step into a new instructor role for the C2 cohort!
                   </p>
