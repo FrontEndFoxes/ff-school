@@ -164,7 +164,37 @@
         </div>
       </div> 
 
-           
+           <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/jo.jpg"
+                alt="Jo Franchetti"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <span class="font-bold"
+                      >Jo Franchetti (Europe Cohort Instructor)</span
+                    >
+                    is a Lead Dev Advocate at Ably and a terrific, experienced instructor of web technologies. Jo has led several European cohorts for Front-End Foxes School and was instrumental in forging our curriculum.
+                  </p>
+                </blockquote>
+              </div>
+
+              
+
+            </figure>
+          </div>
+        </div>
+
+
+         
+        
+      </div>
     
       </div>
 
