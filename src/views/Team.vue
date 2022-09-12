@@ -169,8 +169,8 @@
             <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
               <img
                 class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
-                src="../assets/jo.jpg"
-                alt="Jo Franchetti"
+                src="../assets/michele.jpeg"
+                alt="Michele Cynowicz"
                 width="414"
                 height="414"
               />
@@ -178,9 +178,9 @@
                 <blockquote>
                   <p class="text-lg">
                     <span class="font-bold"
-                      >Jo Franchetti</span
+                      >Michele Cynowicz</span
                     >
-                    is a Lead Dev Advocate at Ably and a terrific, experienced instructor of web technologies. Jo has led several European cohorts for Front-End Foxes School and was instrumental in forging our curriculum.
+                    Leading our intermediate level cohort, Michele is a long-time member of the Front-End Foxes community. She is a Senior Front-End Engineer at Vox Media and our favorite Pirate Queen! 
                   </p>
                 </blockquote>
               </div>
