@@ -214,6 +214,40 @@
         </div>
       </div>
 
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-center mb-4 text-3xl font-semibold text-black">
+          Community Partners
+        </h2>
+
+        <div class="text-black mx-8 lg:mx-20 text-base">
+          <div class="lg:flex mb-4">
+            <figure class="md:flex bg-white rounded-xl p-8 md:p-0">
+              <img
+                class="w-64 h-64 md:w-64 m md:rounded-none rounded-full mx-auto"
+                src="../assets/ecosia-logo.png"
+                alt="Ecosia"
+                width="414"
+                height="414"
+              />
+              <div class="pt-6 md:p-8 text-center space-y-4">
+                <blockquote>
+                  <p class="text-lg">
+                    <p class="font-bold text-xl pb-5">Ecosia</p>
+                    Ecosia is a not-for-profit tech company that plants and protects trees. We dedicate 100% of our profits to the planet and enable people to be climate active every day. Find out more at
+                    <a
+                      href="https://www.ecosia.org/"
+                      target="_blank"
+                      rel="noopener"
+                      class="underline"
+                    >Ecosia.org</a>.
+                  </p>
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+
       <hr class="p-10 m-10" />
       <div class="max-w-6xl mx-auto">
         <div class="text-black mx-8 lg:mx-20 text-base">
