@@ -198,6 +198,15 @@ export default defineComponent({
             "Personally, [the boot camp] helped me learn JavaScript and stop the fear of programming. The atmosphere of the classes is very cool. The other girls also inspired me that I could get a good job. The people at work liked what I was learning. It helped me in the hiring process.",
         },
         {
+          fullName: "Kirsten",
+          smallPicture: "../testimonials/testimonial-kirsten-small-300.png",
+          mediumPicture: "../testimonials/testimonial-kirsten-medium-600.png",
+          largePicture: "../testimonials/testimonial-kirsten-large-1200.png",
+          about: "Student, Zimbabwe",
+          testimonial:
+            "My time during the weeks of the boot-camp was such fun, whenever it was time for class I was always super excited because my instructor always explained things in a way that made sense to me and it was truly an enjoyable experience...thank you, both to her and the community.",
+        },
+        {
           fullName: "Oluwaseyi Olulaye",
           smallPicture:
             "../testimonials/testimonial-oluwaseyi-olulaye-small-300.png",
