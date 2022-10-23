@@ -24,7 +24,8 @@
                   <li>👩‍🎓 C0: April 5 - June 18 2021</li>
                   <li>👩‍🎓 C1​: September 6 - October 8 2021</li>
                   <li>👩‍🎓 C2​: January 10 - February 18 2022</li>
-                  <li>👩‍🎓 C3​: September 19 - October 29 2022</li>
+                  <li>👩‍🎓 C3​: September 19 - October 23 2022</li>
+                  <li>TBD: 2023</li>
                 </ul>
               </p>
               
