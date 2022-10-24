@@ -189,6 +189,15 @@ export default defineComponent({
       // Testimonial slides
       slides: [
         {
+          fullName: "Eda Yavuz",
+          smallPicture: "../testimonials/testimonial-eda-yavuz-small-300.png",
+          mediumPicture: "../testimonials/testimonial-eda-yavuz-medium-600.png",
+          largePicture: "../testimonials/testimonial-eda-yavuz-large-1200.png",
+          about: "Teacher, Bulgaria",
+          testimonial:
+            "Front-End Foxes School gave me the second chance I've been trying to get to shift my career. Learning and growing with a group of amazing women from all around the world is just another perk. Still can't believe this amazing Bootcamp with highly skilled instructors was free. I'm thrilled to be part of this community!",
+        },
+        {
           fullName: "Karla Agraz",
           smallPicture: "../testimonials/testimonial-karla-agraz-small-300.png",
           mediumPicture: "../testimonials/testimonial-karla-agraz-medium-600.png",
