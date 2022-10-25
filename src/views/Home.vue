@@ -198,6 +198,15 @@ export default defineComponent({
             "Front-End Foxes School gave me the second chance I've been trying to get to shift my career. Learning and growing with a group of amazing women from all around the world is just another perk. Still can't believe this amazing Bootcamp with highly skilled instructors was free. I'm thrilled to be part of this community!",
         },
         {
+          fullName: "Yeşim Akar Hozman",
+          smallPicture: "../testimonials/testimonial-yesim-hozman-small-300.png",
+          mediumPicture: "../testimonials/testimonial-yesim-hozman-medium-600.png",
+          largePicture: "../testimonials/testimonial-yesim-hozman-large-1200.png",
+          about: "Front-End Developer, Turkey",
+          testimonial:
+            "It is a great opportunity to meet with qualified instructors, experienced mentors and hardworking classmates. We learnt a lot in five weeks and surely will continue to share knowledge and experience with the Front-End Foxes community. It lasts forever! #redfox!",
+        },
+        {
           fullName: "Karla Agraz",
           smallPicture: "../testimonials/testimonial-karla-agraz-small-300.png",
           mediumPicture: "../testimonials/testimonial-karla-agraz-medium-600.png",
