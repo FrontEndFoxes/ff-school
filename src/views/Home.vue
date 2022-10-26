@@ -198,6 +198,15 @@ export default defineComponent({
             "Front-End Foxes School gave me the second chance I've been trying to get to shift my career. Learning and growing with a group of amazing women from all around the world is just another perk. Still can't believe this amazing Bootcamp with highly skilled instructors was free. I'm thrilled to be part of this community!",
         },
         {
+          fullName: "Sofia Rebelo",
+          smallPicture: "../testimonials/testimonial-sofia-rebelo-small-300.jpg",
+          mediumPicture: "../testimonials/testimonial-sofia-rebelo-medium-600.jpg",
+          largePicture: "../testimonials/testimonial-sofia-rebelo-large-1200.jpg",
+          about: "Graphic Designer, Portugal",
+          testimonial:
+            "Being a complete stranger to coding, at first I was really afraid I would not be able to keep up. But Front End Foxes School has the most amazing community and mentors, that supported and cheered every small conquer, making me feel proud of my achievements and motivated to learn more!",
+        },
+        {
           fullName: "Yeşim Akar Hozman",
           smallPicture: "../testimonials/testimonial-yesim-hozman-small-300.png",
           mediumPicture: "../testimonials/testimonial-yesim-hozman-medium-600.png",
