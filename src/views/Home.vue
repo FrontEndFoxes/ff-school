@@ -198,6 +198,15 @@ export default defineComponent({
             "Front-End Foxes School gave me the second chance I've been trying to get to shift my career. Learning and growing with a group of amazing women from all around the world is just another perk. Still can't believe this amazing Bootcamp with highly skilled instructors was free. I'm thrilled to be part of this community!",
         },
         {
+          fullName: "Tiffany Clark",
+          smallPicture: "../testimonials/testimonial-tiffany-clark-small-300.png",
+          mediumPicture: "../testimonials/testimonial-tiffany-clark-medium-600.png",
+          largePicture: "../testimonials/testimonial-tiffany-clark-large-1200.png",
+          about: "Help Desk Analyst, Chicago, USA",
+          testimonial:
+            "Before joining the program, I had very little experience with JavaScript. Front-End Foxes really helped me a lot with this. All the teachers and mentors were very helpful. A couple times I really thought I wouldn't catch on. But with determination and patience, I was able to finish and now I have a portfolio!",
+        },
+        {
           fullName: "Sofia Rebelo",
           smallPicture: "../testimonials/testimonial-sofia-rebelo-small-300.jpg",
           mediumPicture: "../testimonials/testimonial-sofia-rebelo-medium-600.jpg",
