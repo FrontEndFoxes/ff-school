@@ -9,5 +9,5 @@ let app = createApp(App)
 //form status and url set here
 app.config.globalProperties.regFormOpen = false;
 app.config.globalProperties.formUrl = "https://forms.gle/odtFXjx7xtU78JH5A"
-app.config.globalProperties.status = "Our C3 #RedFox cohort, sponsored by Reddit, is now complete. Stay tuned for events in 2023."
+app.config.globalProperties.status = "Thank you for your support for the past 5 years!"
 app.use(router).mount('#app')
