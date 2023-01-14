@@ -5,25 +5,12 @@
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 text-left md:text-left">
           <h1 class="my-4 text-4xl md:text-6xl font-bold leading-normal">
-            A New Kind of Bootcamp
+            Thank you for five great years!
           </h1>
           <p
             class="leading-normal text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8"
           >
-            For women, by women. Always free of charge. Grow your front-end
-            development skills with us either in person or by studying in our
-            self-driven classroom. {{ status }}
-            <span v-if="regFormOpen">
-              Registration for the live cohort is now open.</span
-            >
-            Sign up for a
-            <a
-              class="cursor-pointer underline"
-              href="https://forms.gle/GA9pUe8AFkcJJQvSA"
-              target="_blank"
-              >self-study class</a
-            >
-            any time!
+            Front-End Foxes has closed our doors. We appreciate the community's support over the past five years. Never stop learning, and we wish you the best! For a trip down memory lane, visit our gallery.
           </p>
 
           <div
@@ -38,10 +25,7 @@
             >
           </div>
         </div>
-        <!--Right Col-->
-        <div class="w-full md:w-2/5 py-6 text-center">
-          <img class="logo w-full z-50" src="../assets/logo.svg" alt="" />
-        </div>
+       
       </div>
     </div>
 
@@ -85,7 +69,7 @@
       </svg>
     </div>
 
-<section class="py-8" style="background-color: #f7fafc">
+<!--<section class="py-8" style="background-color: #f7fafc">
     <div class="container mx-auto flex flex-wrap pt-4">
       <h2
         class="
@@ -128,7 +112,7 @@
             <div
               class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row"
             >
-              <!-- image -->
+              
               <div class="w-full lg:w-1/2 p-2">
                 <img
                   class="w-full h-full object-cover shadow-lg rounded-lg"
@@ -142,9 +126,6 @@
               </div>
 
 
-              
-
-              <!-- text -->
               <div class="w-full lg:w-1/2 p-6">
                 <div class="text-secondary-600 font-bold leading-normal text-left">
                   
@@ -169,7 +150,12 @@
           </template>
         </vueper-slide>
       </vueper-slides>
-    </section>
+    </section>-->
+
+     <!--Right Col-->
+     <div style="background-color: #f7fafc" class="w-full md:w-2/5 py-6 text-center">
+          <img class="logo w-full z-50" src="../assets/logo.svg" alt="" />
+        </div>
   </main>
 </template>
 
