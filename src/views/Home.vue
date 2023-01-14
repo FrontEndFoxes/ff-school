@@ -3,7 +3,7 @@
     <div class="pt-24 py-20">
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
-        <div class="flex flex-col w-full md:w-3/5 text-left md:text-left">
+        <div class="flex flex-col w-full text-left md:text-left">
           <h1 class="my-4 text-4xl md:text-6xl font-bold leading-normal">
             Thank you for five great years!
           </h1>
@@ -152,10 +152,9 @@
       </vueper-slides>
     </section>-->
 
-     <!--Right Col-->
-     <div style="background-color: #f7fafc" class="w-full md:w-2/5 py-6 text-center">
-          <img class="logo w-full z-50" src="../assets/logo.svg" alt="" />
-        </div>
+     <div style="background-color: #f7fafc" class="w-full py-6 mx-auto">
+        <img class="logo w-full" src="../assets/logo.svg" alt="Front-End Foxes Logo" />
+     </div>
   </main>
 </template>
 
@@ -300,6 +299,8 @@ export default defineComponent({
 
 .logo {
   max-width: 500px;
+  display: flex;
+  margin: auto;
 }
 
 /* Testimonial slides */

@@ -42,7 +42,7 @@
           <p
                 class="rounded-lg bg-gray-300 m-5 p-5 font-bold leading-relaxed text-xl text-primary-700"
               >
-                Front-End Foxes School is a part-time program, taught twice a
+                Front-End Foxes School was a part-time program, taught twice a
                 week in the evenings for 6 weeks per cohort - perfect for working women, students and
                 moms. We also offer ad hoc asyncronous classroom learning. We will ALWAYS be free of charge for students with no
                 strings attached. By the end of the program you will have learned the basics of JavaScript, CSS, and HTML.

@@ -192,7 +192,7 @@
           href="/"
         >
           <img class="float-left pt-1" src="../assets/logo-sm.png" alt="Front-End Foxes School" />
-          <span class="pt-1 pl-3">Front-End Foxes School</span>
+          <span class="pt-1 pl-3">Front-End Foxes</span>
         </a>
       </div>
 
