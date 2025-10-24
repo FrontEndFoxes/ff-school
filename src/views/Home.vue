@@ -289,12 +289,12 @@ export default defineComponent({
 .gradient {
   background: linear-gradient(
     90deg,
-    theme("colors.primary.700") 0%,
-    theme("colors.primary.500") 100%
+    #06233B 0%,
+    #092F4B 100%
   );
 }
 #drawer {
-  background-color: theme("colors.primary.700");
+  background-color: #06233B;
 }
 
 .logo {

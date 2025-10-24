@@ -19,13 +19,24 @@ export default {
 
 <style scoped>
 .ffeventsgroup {
-  @apply p-2 flex flex-col flex-wrap justify-around p-10;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2.5rem;
 }
 
 /* Medium (md) */
 @media (min-width: 768px) {
   .ffeventsgroup {
-    @apply w-full mx-auto flex flex-row flex-wrap justify-center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 </style>

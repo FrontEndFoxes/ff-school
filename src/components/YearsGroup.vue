@@ -39,36 +39,58 @@ export default {
 </script>
 <style scoped>
 .years {
-	@apply w-11/12 mb-5 mx-auto flex flex-row flex-wrap justify-evenly rounded p-1;
+  width: 91.666667%;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
 }
 
 .years__title {
-	@apply w-16 text-center m-1 p-1 text-gray-600;
+  width: 4rem;
+  text-align: center;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  color: #4B5563;
 }
 
 .years__title--selected {
-	@apply border-b-2 border-gray-600;
+  border-bottom-width: 2px;
+  border-bottom-color: #4B5563;
 }
 
 /* Medium */
 
 @media (min-width: 768px) {
-	.years {
-		@apply w-6/12 flex flex-row flex-wrap items-center;
-	}
-	.years__title {
-		@apply w-12;
-	}
+  .years {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .years__title {
+    width: 3rem;
+  }
 }
 
 /* Large (lg) */
 
 @media (min-width: 1024px) {
-	.years {
-		@apply w-6/12 flex flex-row flex-wrap items-center;
-	}
-	.years__title {
-		@apply w-12;
-	}
+  .years {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .years__title {
+    width: 3rem;
+  }
 }
 </style>
