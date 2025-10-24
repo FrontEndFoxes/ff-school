@@ -13,7 +13,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296641/reports/2018_feqpy9.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/f_auto,q_auto/v1614296641/reports/2018_feqpy9.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -28,7 +28,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296639/reports/2019_ibv6av.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/f_auto,q_auto/v1614296639/reports/2019_ibv6av.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -43,7 +43,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296639/reports/2020_efbzbp.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/f_auto,q_auto/v1614296639/reports/2020_efbzbp.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -58,7 +58,7 @@
          <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1657286794/reports/Screen_Shot_2022-07-08_at_9.23.35_AM_fwwmcc.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/f_auto,q_auto/v1657286794/reports/Screen_Shot_2022-07-08_at_9.23.35_AM_fwwmcc.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -87,26 +87,42 @@ export default defineComponent({
 
 <style scoped>
 .ffgallery__body {
-  @apply my-2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .ffreport__card {
-  @apply bg-white shadow-lg rounded-lg my-1;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .ffreportsgroup {
-  @apply p-2 flex flex-col flex-wrap justify-around p-10;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2.5rem;
 }
 
 /* Medium (md) */
 @media (min-width: 768px) {
   .ffreportsgroup {
-    @apply w-full mx-auto flex flex-row flex-wrap justify-center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 .ffreport__wrap {
-  @apply rounded;
+  border-radius: 0.25rem;
 }
 
 /* Small (sm) */
@@ -115,7 +131,7 @@ export default defineComponent({
     height: 17rem;
   }
   .ffreport__wrap {
-    @apply h-64;
+    height: 16rem;
   }
 }
 
@@ -123,7 +139,8 @@ export default defineComponent({
 @media (min-width: 768px) {
   .ffreport__card {
     width: 30%;
-    @apply mx-2;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 

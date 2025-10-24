@@ -27,15 +27,20 @@ export default {
 </script>
 <style scoped>
 .ffgallery__body {
-  @apply my-2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .ffevent__card {
-  @apply bg-white shadow-lg rounded-lg my-1;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .ffevent__wrap {
-  @apply rounded;
+  border-radius: 0.25rem;
 }
 
 /* Small (sm) */
@@ -44,7 +49,7 @@ export default {
     height: 19rem;
   }
   .ffevent__wrap {
-    @apply h-80;
+    height: 20rem;
   }
 }
 
@@ -52,7 +57,8 @@ export default {
 @media (min-width: 768px) {
   .ffevent__card {
     width: 30%;
-    @apply mx-2;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 

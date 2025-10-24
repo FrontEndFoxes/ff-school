@@ -29,7 +29,7 @@
                     <span class="font-bold"
                       >Jen Looper (Founder and CEO)</span
                     >
-                    is the Head of Academic Advocacy at AWS with over 22 years' experience as a web
+                    is the Director of Developer Relations at Cloudinary with over 25 years' experience as a web
                     and mobile developer. She is a multilingual multiculturalist
                     with a passion for teaching.
                   </p>

@@ -1,7 +1,29 @@
-/* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+  
+  --color-primary-50: #E1E6E9;
+  --color-primary-100: #B5C1C9;
+  --color-primary-200: #8497A5;
+  --color-primary-300: #536D81;
+  --color-primary-400: #2E4E66;
+  --color-primary-500: #092F4B;
+  --color-primary-600: #082A44;
+  --color-primary-700: #06233B;
+  --color-primary-800: #051D33;
+  --color-primary-900: #021223;
+  
+  --color-secondary-100: #FAD5CB;
+  --color-secondary-200: #F6B9A8;
+  --color-secondary-300: #F29C85;
+  --color-secondary-400: #F0876B;
+  --color-secondary-500: #ED7251;
+  --color-secondary-600: #EB6A4A;
+  --color-secondary-700: #E85F40;
+  --color-secondary-800: #E55537;
+  --color-secondary-900: #E04227;
+}
 
 .fade-enter-active,
 .fade-leave-active {
@@ -14,9 +36,9 @@
 }
 
 .button {
-	background: theme('colors.secondary.500');
-	color: theme('colors.white');
+	background: #ED7251;
+	color: white;
 }
 .button:hover {
-	background: theme('colors.secondary.400');
+	background: #F0876B;
 }

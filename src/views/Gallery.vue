@@ -107,6 +107,13 @@ export default defineComponent({
 </script>
 <style scoped>
 .gallery__title {
-  @apply w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #374151;
 }
 </style>
